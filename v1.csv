@@ -1,0 +1,478 @@
+,GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRING,HOMEDESCRIPTION,NEUTRALDESCRIPTION,VISITORDESCRIPTION,SCORE,SCOREMARGIN
+0,0022500247,2,12,0,1,8:11 PM,12:00,,Start of 1st Period (8:11 PM EST),,,
+1,0022500247,4,10,0,1,8:11 PM,12:00,Jump Ball Missi vs. Holmgren: Tip to Gilgeous-Alexander,,,,
+2,0022500247,7,2,1,1,8:11 PM,11:43,,,MISS Dort 26' 3PT Jump Shot,,
+3,0022500247,8,4,0,1,8:11 PM,11:41,,,Thunder Rebound,,
+4,0022500247,10,1,1,1,8:11 PM,11:38,,,Dort 25' 3PT Jump Shot (3 PTS) (Wallace 1 AST),3 - 0,-3
+5,0022500247,12,5,1,1,8:12 PM,11:22,Jones Bad Pass Turnover (P1.T1),,Hartenstein STEAL (1 STL),,
+6,0022500247,14,1,1,1,8:12 PM,11:10,,,Dort 24' 3PT Jump Shot (6 PTS) (Hartenstein 1 AST),6 - 0,-6
+7,0022500247,16,1,101,1,8:12 PM,10:49,Fears 16' Driving Floating Jump Shot (2 PTS) (Queen 1 AST),,,6 - 2,-4
+8,0022500247,18,6,1,1,8:12 PM,10:39,Fears P.FOUL (P1.T1) (N.Sago),,,,
+9,0022500247,21,1,1,1,8:13 PM,10:23,,,Holmgren 25' 3PT Jump Shot (3 PTS) (Gilgeous-Alexander 1 AST),9 - 2,-7
+10,0022500247,23,5,13,1,8:14 PM,9:57,Missi Backcourt Turnover (P1.T2),,,,
+11,0022500247,24,6,2,1,8:14 PM,9:38,Queen S.FOUL (P1.T2) (J.Goble),,,,
+12,0022500247,26,3,11,1,8:15 PM,9:38,,,Holmgren Free Throw 1 of 2 (4 PTS),10 - 2,-8
+13,0022500247,27,3,12,1,8:15 PM,9:38,,,Holmgren Free Throw 2 of 2 (5 PTS),11 - 2,-9
+14,0022500247,28,5,2,1,8:15 PM,9:25,Jones Lost Ball Turnover (P2.T3),,Gilgeous-Alexander STEAL (1 STL),,
+15,0022500247,30,6,2,1,8:16 PM,9:10,Murphy III S.FOUL (P1.T3) (J.Orr),,,,
+16,0022500247,32,3,11,1,8:16 PM,9:10,,,Gilgeous-Alexander Free Throw 1 of 2 (1 PTS),12 - 2,-10
+17,0022500247,33,3,12,1,8:16 PM,9:10,,,Gilgeous-Alexander Free Throw 2 of 2 (2 PTS),13 - 2,-11
+18,0022500247,34,1,6,1,8:16 PM,8:57,Fears 2' Driving Layup (4 PTS),,,13 - 4,-9
+19,0022500247,35,2,52,1,8:17 PM,8:45,,,MISS Hartenstein 2' Alley Oop Dunk,,
+20,0022500247,36,4,0,1,8:17 PM,8:45,PELICANS Rebound,,,,
+21,0022500247,38,1,101,1,8:17 PM,8:34,Fears 10' Driving Floating Jump Shot (6 PTS),,,13 - 6,-7
+22,0022500247,39,6,2,1,8:17 PM,8:34,,,Dort S.FOUL (P1.T1) (J.Orr),,
+23,0022500247,41,3,10,1,8:18 PM,8:34,MISS Fears Free Throw 1 of 1,,,,
+24,0022500247,42,4,0,1,8:18 PM,8:31,,,Holmgren REBOUND (Off:0 Def:1),,
+25,0022500247,43,1,1,1,8:18 PM,8:19,,,Dort 25' 3PT Jump Shot (9 PTS) (Gilgeous-Alexander 2 AST),16 - 6,-10
+26,0022500247,45,5,45,1,8:18 PM,8:06,Missi Out of Bounds - Bad Pass Turnover Turnover (P2.T4),,,,
+27,0022500247,46,1,75,1,8:18 PM,7:50,,,Holmgren 5' Driving Finger Roll Layup (7 PTS) (Gilgeous-Alexander 3 AST),18 - 6,-12
+28,0022500247,48,9,1,1,8:19 PM,7:49,PELICANS Timeout: Regular (Full 1 Short 0),,,,
+29,0022500247,49,5,45,1,8:22 PM,7:36,Fears Out of Bounds - Bad Pass Turnover Turnover (P1.T5),,,,
+30,0022500247,50,1,5,1,8:22 PM,7:19,,,Hartenstein 2' Layup (2 PTS) (Wallace 2 AST),20 - 6,-14
+31,0022500247,52,2,6,1,8:22 PM,6:58,MISS Queen 3' Driving Layup,,,,
+32,0022500247,53,4,0,1,8:22 PM,6:58,,,Thunder Rebound,,
+33,0022500247,56,8,0,1,8:23 PM,6:58,SUB: Peavy FOR Missi,,,,
+34,0022500247,59,8,0,1,8:23 PM,6:58,SUB: Matkovic FOR Queen,,,,
+35,0022500247,60,6,4,1,8:23 PM,6:46,,,Hartenstein OFF.Foul (P1) (J.Goble),,
+36,0022500247,62,5,37,1,8:23 PM,6:46,,,Hartenstein Offensive Foul Turnover (P1.T1),,
+37,0022500247,63,6,2,1,8:23 PM,6:37,,,Gilgeous-Alexander S.FOUL (P1.T2) (J.Orr),,
+38,0022500247,65,3,11,1,8:24 PM,6:37,Murphy III Free Throw 1 of 2 (1 PTS),,,20 - 7,-13
+39,0022500247,66,8,0,1,8:24 PM,6:37,SUB: Alvarado FOR Fears,,,,
+40,0022500247,68,3,12,1,8:24 PM,6:37,Murphy III Free Throw 2 of 2 (2 PTS),,,20 - 8,-12
+41,0022500247,69,2,6,1,8:25 PM,6:24,,,MISS Wallace 5' Driving Layup,,
+42,0022500247,70,4,0,1,8:25 PM,6:24,,,Thunder Rebound,,
+43,0022500247,72,6,2,1,8:25 PM,6:17,Jones S.FOUL (P1.T4) (N.Sago),,,,
+44,0022500247,74,3,11,1,8:26 PM,6:17,,,Gilgeous-Alexander Free Throw 1 of 2 (3 PTS),21 - 8,-13
+45,0022500247,75,8,0,1,8:26 PM,6:17,,,SUB: Joe FOR Wallace,,
+46,0022500247,77,3,12,1,8:26 PM,6:17,,,Gilgeous-Alexander Free Throw 2 of 2 (4 PTS),22 - 8,-14
+47,0022500247,78,5,1,1,8:26 PM,6:02,Murphy III Bad Pass Turnover (P1.T6),,Gilgeous-Alexander STEAL (2 STL),,
+48,0022500247,80,1,108,1,8:26 PM,5:52,,,Hartenstein 3' Cutting Dunk Shot (4 PTS) (Joe 1 AST),24 - 8,-16
+49,0022500247,82,1,1,1,8:27 PM,5:40,Matkovic 26' 3PT Jump Shot (3 PTS) (Alvarado 1 AST),,,24 - 11,-13
+50,0022500247,84,1,75,1,8:27 PM,5:24,,,Gilgeous-Alexander 3' Driving Finger Roll Layup (6 PTS),26 - 11,-15
+51,0022500247,85,2,6,1,8:27 PM,5:17,MISS Jones 3' Driving Layup,,,,
+52,0022500247,86,4,0,1,8:27 PM,5:15,,,Hartenstein REBOUND (Off:0 Def:1),,
+53,0022500247,87,1,76,1,8:27 PM,5:10,,,Holmgren 3' Running Finger Roll Layup (9 PTS),28 - 11,-17
+54,0022500247,88,2,1,1,8:27 PM,5:00,MISS Alvarado 29' 3PT Jump Shot,,,,
+55,0022500247,89,4,0,1,8:27 PM,4:59,,,Thunder Rebound,,
+56,0022500247,91,8,0,1,8:27 PM,4:59,SUB: Hawkins FOR Murphy III,,,,
+57,0022500247,92,8,0,1,8:27 PM,4:59,,,SUB: Williams FOR Hartenstein,,
+58,0022500247,95,1,1,1,8:28 PM,4:38,,,Joe 24' 3PT Jump Shot (3 PTS) (Dort 1 AST),31 - 11,-20
+59,0022500247,97,2,79,1,8:28 PM,4:21,MISS Hawkins 19' Pullup Jump Shot,,,,
+60,0022500247,98,4,0,1,8:28 PM,4:17,,,Holmgren REBOUND (Off:0 Def:2),,
+61,0022500247,99,1,1,1,8:29 PM,4:05,,,Dort 27' 3PT Jump Shot (12 PTS) (Williams 1 AST),34 - 11,-23
+62,0022500247,101,9,1,1,8:29 PM,4:04,PELICANS Timeout: Regular (Full 2 Short 0),,,,
+63,0022500247,102,8,0,1,8:31 PM,4:04,,,SUB: Carlson FOR Holmgren,,
+64,0022500247,104,2,101,1,8:32 PM,3:47,MISS Alvarado 7' Driving Floating Jump Shot,,,,
+65,0022500247,105,4,0,1,8:32 PM,3:45,,,Williams REBOUND (Off:0 Def:1),,
+66,0022500247,106,6,2,1,8:32 PM,3:41,Matkovic S.FOUL (P1.PN) (J.Orr),,,,
+67,0022500247,108,3,11,1,8:32 PM,3:41,,,Carlson Free Throw 1 of 2 (1 PTS),35 - 11,-24
+68,0022500247,109,8,0,1,8:32 PM,3:41,SUB: McGowens FOR Jones,,,,
+69,0022500247,110,8,0,1,8:32 PM,3:41,,,SUB: Mitchell FOR Dort,,
+70,0022500247,113,3,12,1,8:33 PM,3:41,,,Carlson Free Throw 2 of 2 (2 PTS),36 - 11,-25
+71,0022500247,114,1,101,1,8:33 PM,3:30,Alvarado 7' Driving Floating Jump Shot (2 PTS),,,36 - 13,-23
+72,0022500247,115,2,80,1,8:33 PM,3:17,,,MISS Gilgeous-Alexander 26' 3PT Step Back Jump Shot,,
+73,0022500247,116,4,0,1,8:33 PM,3:14,McGowens REBOUND (Off:0 Def:1),,,,
+74,0022500247,117,6,4,1,8:34 PM,3:06,Matkovic OFF.Foul (P2) (J.Goble),,,,
+75,0022500247,119,5,37,1,8:34 PM,3:06,Matkovic Offensive Foul Turnover (P1.T7),,,,
+76,0022500247,120,8,0,1,8:34 PM,3:06,SUB: Queen FOR Matkovic,,,,
+77,0022500247,122,2,1,1,8:34 PM,2:51,,,MISS Joe 26' 3PT Jump Shot,,
+78,0022500247,123,4,0,1,8:34 PM,2:47,,,Carlson REBOUND (Off:1 Def:0),,
+79,0022500247,124,2,79,1,8:34 PM,2:40,,,MISS Gilgeous-Alexander 28' 3PT Pullup Jump Shot,,
+80,0022500247,125,4,0,1,8:34 PM,2:37,McGowens REBOUND (Off:0 Def:2),,,,
+81,0022500247,126,1,63,1,8:35 PM,2:22,Peavy 8' Fadeaway Jumper (2 PTS) (Hawkins 1 AST),,,36 - 15,-21
+82,0022500247,128,1,6,1,8:35 PM,2:11,,,Gilgeous-Alexander 7' Driving Layup (8 PTS),38 - 15,-23
+83,0022500247,129,6,2,1,8:35 PM,2:11,Alvarado S.FOUL (P1.PN) (N.Sago),,,,
+84,0022500247,131,3,10,1,8:35 PM,2:11,,,Gilgeous-Alexander Free Throw 1 of 1 (9 PTS),39 - 15,-24
+85,0022500247,132,1,108,1,8:36 PM,2:00,McGowens 2' Cutting Dunk Shot (2 PTS) (Peavy 1 AST),,,39 - 17,-22
+86,0022500247,134,1,1,1,8:36 PM,1:43,,,Carlson 25' 3PT Jump Shot (5 PTS) (Mitchell 1 AST),42 - 17,-25
+87,0022500247,136,2,47,1,8:36 PM,1:25,MISS Queen 9' Turnaround Jump Shot,,,,
+88,0022500247,137,4,0,1,8:36 PM,1:23,,,Williams REBOUND (Off:0 Def:2),,
+89,0022500247,138,6,2,1,8:36 PM,1:15,McGowens S.FOUL (P1.PN) (J.Goble),,,,
+90,0022500247,140,3,11,1,8:37 PM,1:15,,,Gilgeous-Alexander Free Throw 1 of 2 (10 PTS),43 - 17,-26
+91,0022500247,141,3,12,1,8:37 PM,1:15,,,Gilgeous-Alexander Free Throw 2 of 2 (11 PTS),44 - 17,-27
+92,0022500247,142,1,1,1,8:37 PM,1:05,Peavy 3PT Jump Shot (5 PTS) (Hawkins 2 AST),,,44 - 20,-24
+93,0022500247,144,6,1,1,8:38 PM,0:41,Alvarado P.FOUL (P2.PN) (J.Goble),,,,
+94,0022500247,146,3,11,1,8:38 PM,0:41,,,MISS Carlson Free Throw 1 of 2,,
+95,0022500247,147,4,1,1,8:38 PM,0:41,,,Thunder Rebound,,
+96,0022500247,148,3,12,1,8:38 PM,0:41,,,MISS Carlson Free Throw 2 of 2,,
+97,0022500247,149,4,0,1,8:38 PM,0:39,Peavy REBOUND (Off:0 Def:1),,,,
+98,0022500247,150,6,2,1,8:39 PM,0:36,,,Williams S.FOUL (P1.T3) (J.Goble),,
+99,0022500247,152,3,11,1,8:39 PM,0:36,Queen Free Throw 1 of 2 (1 PTS),,,44 - 21,-23
+100,0022500247,153,3,12,1,8:39 PM,0:36,Queen Free Throw 2 of 2 (2 PTS),,,44 - 22,-22
+101,0022500247,154,2,79,1,8:39 PM,0:26,,,MISS Williams 22' Pullup Jump Shot,,
+102,0022500247,155,4,0,1,8:40 PM,0:24,,,Carlson REBOUND (Off:2 Def:0),,
+103,0022500247,156,1,1,1,8:40 PM,0:22,,,Joe 26' 3PT Jump Shot (6 PTS) (Carlson 1 AST),47 - 22,-25
+104,0022500247,158,1,6,1,8:40 PM,0:06,Peavy 4' Driving Layup (7 PTS),,,47 - 24,-23
+105,0022500247,159,1,101,1,8:40 PM,0:00,,,Mitchell 13' Driving Floating Jump Shot (2 PTS),49 - 24,-25
+106,0022500247,163,13,0,1,8:41 PM,0:00,,End of 1st Period (8:41 PM EST),,49 - 24,-25
+107,0022500247,174,12,0,2,8:43 PM,12:00,,Start of 2nd Period (8:43 PM EST),,49 - 24,-25
+108,0022500247,175,2,1,2,8:43 PM,11:43,MISS Hawkins 25' 3PT Jump Shot,,,,
+109,0022500247,176,4,0,2,8:43 PM,11:40,Murphy III REBOUND (Off:1 Def:0),,,,
+110,0022500247,177,2,102,2,8:43 PM,11:35,MISS Murphy III 8' Driving Floating Bank Jump Shot,,,,
+111,0022500247,178,4,0,2,8:43 PM,11:35,PELICANS Rebound,,,,
+112,0022500247,179,5,11,2,8:43 PM,11:35,PELICANS Turnover: Shot Clock (T#8),,,,
+113,0022500247,180,1,1,2,8:43 PM,11:26,,,Wallace 24' 3PT Jump Shot (3 PTS) (Joe 2 AST),52 - 24,-28
+114,0022500247,183,1,1,2,8:44 PM,10:59,Murphy III 3PT Jump Shot (5 PTS) (Peavy 2 AST),,,52 - 27,-25
+115,0022500247,185,2,1,2,8:44 PM,10:50,,,MISS Mitchell 26' 3PT Jump Shot,,
+116,0022500247,186,4,0,2,8:44 PM,10:49,PELICANS Rebound,,,,
+117,0022500247,188,5,45,2,8:45 PM,10:33,Alvarado Out of Bounds - Bad Pass Turnover Turnover (P1.T9),,,,
+118,0022500247,189,5,2,2,8:45 PM,10:18,Missi STEAL (1 STL),,Wallace Lost Ball Turnover (P1.T2),,
+119,0022500247,191,1,1,2,8:46 PM,9:59,Peavy 8' Jump Shot (9 PTS) (Missi 1 AST),,,52 - 29,-23
+120,0022500247,193,1,58,2,8:46 PM,9:47,,,Hartenstein 7' Turnaround Hook Shot (6 PTS) (Wallace 3 AST),54 - 29,-25
+121,0022500247,195,2,1,2,8:46 PM,9:34,MISS Peavy 26' 3PT Jump Shot,,,,
+122,0022500247,196,4,0,2,8:46 PM,9:34,,,Wallace REBOUND (Off:0 Def:1),,
+123,0022500247,197,6,1,2,8:46 PM,9:27,Peavy P.FOUL (P1.T1) (J.Orr),,,,
+124,0022500247,199,2,79,2,8:47 PM,9:22,,,MISS Mitchell 25' 3PT Pullup Jump Shot,,
+125,0022500247,200,4,0,2,8:47 PM,9:19,Murphy III REBOUND (Off:1 Def:1),,,,
+126,0022500247,201,2,1,2,8:47 PM,9:12,MISS Alvarado 24' 3PT Jump Shot,,,,
+127,0022500247,202,4,0,2,8:47 PM,9:09,,,Holmgren REBOUND (Off:0 Def:3),,
+128,0022500247,203,2,101,2,8:47 PM,8:59,,,MISS Mitchell 12' Driving Floating Jump Shot,,
+129,0022500247,204,4,0,2,8:47 PM,8:55,,,Hartenstein REBOUND (Off:1 Def:1),,
+130,0022500247,222,2,97,2,8:47 PM,8:55,,,MISS Hartenstein 4' Tip Layup Shot,,
+131,0022500247,223,4,0,2,8:47 PM,8:55,,,Joe REBOUND (Off:1 Def:0),,
+132,0022500247,205,5,2,2,8:47 PM,8:50,Alvarado STEAL (1 STL),,Joe Lost Ball Turnover (P1.T3),,
+133,0022500247,207,1,1,2,8:47 PM,8:46,Murphy III 28' 3PT Jump Shot (8 PTS) (Hawkins 3 AST),,,54 - 32,-22
+134,0022500247,209,6,1,2,8:47 PM,8:33,Alvarado P.FOUL (P3.T2) (J.Goble),,,,
+135,0022500247,211,8,0,2,8:48 PM,8:33,SUB: Fears FOR Alvarado,,,,
+136,0022500247,212,8,0,2,8:48 PM,8:33,,,SUB: Barnhizer FOR Wallace,,
+137,0022500247,215,1,79,2,8:48 PM,8:25,,,Holmgren 13' Pullup Jump Shot (11 PTS) (Hartenstein 2 AST),56 - 32,-24
+138,0022500247,217,1,101,2,8:48 PM,8:14,Murphy III 10' Driving Floating Jump Shot (10 PTS),,,56 - 34,-22
+139,0022500247,218,1,43,2,8:48 PM,8:02,,,Mitchell 3' Alley Oop Layup (4 PTS) (Hartenstein 3 AST),58 - 34,-24
+140,0022500247,220,1,80,2,8:49 PM,7:54,Murphy III 26' 3PT Step Back Jump Shot (13 PTS),,,58 - 37,-21
+141,0022500247,221,9,1,2,8:49 PM,7:53,,,Thunder Timeout: Regular (Reg.1 Short 0),,
+142,0022500247,224,8,0,2,8:50 PM,7:53,SUB: Jones FOR Hawkins,,,,
+143,0022500247,226,2,1,2,8:52 PM,7:35,,,MISS Holmgren 24' 3PT Jump Shot,,
+144,0022500247,227,4,0,2,8:52 PM,7:32,Murphy III REBOUND (Off:1 Def:2),,,,
+145,0022500247,228,2,101,2,8:52 PM,7:25,MISS Fears 4' Driving Floating Jump Shot,,,,
+146,0022500247,229,4,0,2,8:52 PM,7:22,,,Barnhizer REBOUND (Off:0 Def:1),,
+147,0022500247,230,2,1,2,8:52 PM,7:13,,,MISS Joe 31' 3PT Jump Shot,,
+148,0022500247,231,4,0,2,8:52 PM,7:10,Murphy III REBOUND (Off:1 Def:3),,,,
+149,0022500247,232,2,101,2,8:52 PM,7:03,MISS Murphy III 8' Driving Floating Jump Shot,,,,
+150,0022500247,233,4,0,2,8:52 PM,7:00,,,Holmgren REBOUND (Off:0 Def:4),,
+151,0022500247,234,1,1,2,8:53 PM,6:51,,,Joe 25' 3PT Jump Shot (9 PTS) (Hartenstein 4 AST),61 - 37,-24
+152,0022500247,236,1,6,2,8:53 PM,6:31,Missi 2' Driving Layup (2 PTS),,,61 - 39,-22
+153,0022500247,237,1,108,2,8:53 PM,6:13,,,Hartenstein 2' Cutting Dunk Shot (8 PTS) (Joe 3 AST),63 - 39,-24
+154,0022500247,239,6,1,2,8:53 PM,6:03,,,Mitchell P.FOUL (P1.T1) (J.Goble),,
+155,0022500247,241,8,0,2,8:54 PM,6:03,SUB: Matkovic FOR Peavy,,,,
+156,0022500247,242,8,0,2,8:54 PM,6:03,SUB: Queen FOR Missi,,,,
+157,0022500247,243,8,0,2,8:54 PM,6:03,SUB: McGowens FOR Murphy III,,,,
+158,0022500247,244,8,0,2,8:54 PM,6:03,,,SUB: Dort FOR Joe,,
+159,0022500247,249,2,1,2,8:54 PM,5:56,MISS Fears 27' 3PT Jump Shot,,,,
+160,0022500247,250,4,0,2,8:54 PM,5:53,Queen REBOUND (Off:1 Def:0),,,,
+161,0022500247,251,5,1,2,8:54 PM,5:50,Queen Bad Pass Turnover (P1.T10),,Mitchell STEAL (1 STL),,
+162,0022500247,253,2,1,2,8:55 PM,5:40,,,MISS Hartenstein 26' 3PT Jump Shot,,
+163,0022500247,254,4,0,2,8:55 PM,5:38,PELICANS Rebound,,,,
+164,0022500247,256,1,79,2,8:55 PM,5:30,Fears 27' 3PT Pullup Jump Shot (9 PTS),,,63 - 42,-21
+165,0022500247,257,2,1,2,8:55 PM,5:10,,,MISS Dort 26' 3PT Jump Shot,,
+166,0022500247,258,4,0,2,8:55 PM,5:06,Matkovic REBOUND (Off:0 Def:1),,,,
+167,0022500247,259,1,1,2,8:55 PM,4:57,Matkovic 28' 3PT Jump Shot (6 PTS) (Fears 1 AST),,,63 - 45,-18
+168,0022500247,261,9,1,2,8:56 PM,4:56,,,Thunder Timeout: Regular (Reg.2 Short 0),,
+169,0022500247,262,8,0,2,8:57 PM,4:56,,,SUB: Gilgeous-Alexander FOR Holmgren,,
+170,0022500247,263,8,0,2,8:57 PM,4:56,,,SUB: Carlson FOR Barnhizer,,
+171,0022500247,264,8,0,2,8:57 PM,4:56,,,SUB: Williams FOR Hartenstein,,
+172,0022500247,268,5,45,2,8:59 PM,4:34,,,Williams Out of Bounds - Bad Pass Turnover Turnover (P1.T4),,
+173,0022500247,269,6,2,2,8:59 PM,4:23,,,Mitchell S.FOUL (P2.T2) (J.Orr),,
+174,0022500247,271,3,11,2,8:59 PM,4:23,McGowens Free Throw 1 of 2 (3 PTS),,,63 - 46,-17
+175,0022500247,272,3,12,2,9:00 PM,4:23,McGowens Free Throw 2 of 2 (4 PTS),,,63 - 47,-16
+176,0022500247,273,6,1,2,9:00 PM,4:06,Fears P.FOUL (P2.T3) (J.Orr),,,,
+177,0022500247,275,6,1,2,9:00 PM,4:04,McGowens P.FOUL (P2.T4) (J.Goble),,,,
+178,0022500247,277,8,0,2,9:01 PM,4:04,SUB: Murphy III FOR McGowens,,,,
+179,0022500247,279,5,45,2,9:01 PM,4:03,,,Williams Out of Bounds - Bad Pass Turnover Turnover (P2.T5),,
+180,0022500247,280,2,1,2,9:02 PM,3:52,MISS Jones 25' 3PT Jump Shot,,,,
+181,0022500247,281,4,0,2,9:02 PM,3:48,,,Williams REBOUND (Off:0 Def:3),,
+182,0022500247,282,2,1,2,9:02 PM,3:40,,,MISS Carlson 25' 3PT Jump Shot,,
+183,0022500247,283,4,0,2,9:02 PM,3:33,Matkovic REBOUND (Off:0 Def:2),,,,
+184,0022500247,284,2,101,2,9:02 PM,3:25,MISS Jones 10' Driving Floating Jump Shot,,,,
+185,0022500247,285,4,0,2,9:02 PM,3:17,Queen REBOUND (Off:2 Def:0),,,,
+186,0022500247,286,2,6,2,9:02 PM,3:11,MISS Queen 2' Driving Layup,,,,
+187,0022500247,287,4,0,2,9:02 PM,3:07,Matkovic REBOUND (Off:1 Def:2),,,,
+188,0022500247,288,1,87,2,9:02 PM,3:07,Matkovic Putback Dunk (8 PTS),,,63 - 49,-14
+189,0022500247,289,1,6,2,9:02 PM,3:02,,,Mitchell 2' Driving Layup (6 PTS),65 - 49,-16
+190,0022500247,290,6,4,2,9:03 PM,2:50,Queen OFF.Foul (P2) (N.Sago),,,,
+191,0022500247,292,5,37,2,9:03 PM,2:50,Queen Offensive Foul Turnover (P2.T11),,,,
+192,0022500247,293,8,0,2,9:03 PM,2:50,,,SUB: Wallace FOR Carlson,,
+193,0022500247,295,6,4,2,9:03 PM,2:38,,,Williams OFF.Foul (P2) (J.Orr),,
+194,0022500247,297,5,37,2,9:03 PM,2:38,,,Williams Offensive Foul Turnover (P3.T6),,
+195,0022500247,298,2,6,2,9:04 PM,2:23,MISS Fears 4' Driving Layup,,,,
+196,0022500247,299,4,0,2,9:04 PM,2:20,Queen REBOUND (Off:3 Def:0),,,,
+197,0022500247,300,1,97,2,9:04 PM,2:20,Queen Tip Layup Shot (4 PTS),,,65 - 51,-14
+198,0022500247,301,6,2,2,9:04 PM,1:59,Murphy III S.FOUL (P2.PN) (J.Goble),,,,
+199,0022500247,303,6,11,2,9:05 PM,1:59,Murphy III T.FOUL (P2.PN) (J.Goble),,,,
+200,0022500247,304,3,16,2,9:05 PM,1:59,,,Gilgeous-Alexander Free Throw Technical (12 PTS),66 - 51,-15
+201,0022500247,305,3,11,2,9:05 PM,1:59,,,Mitchell Free Throw 1 of 2 (7 PTS),67 - 51,-16
+202,0022500247,306,3,12,2,9:05 PM,1:59,,,Mitchell Free Throw 2 of 2 (8 PTS),68 - 51,-17
+203,0022500247,308,6,2,2,9:06 PM,1:43,,,Gilgeous-Alexander S.FOUL (P2.T3) (N.Sago),,
+204,0022500247,310,3,11,2,9:06 PM,1:43,Jones Free Throw 1 of 2 (1 PTS),,,68 - 52,-16
+205,0022500247,311,3,12,2,9:06 PM,1:43,Jones Free Throw 2 of 2 (2 PTS),,,68 - 53,-15
+206,0022500247,312,6,2,2,9:07 PM,1:39,Murphy III S.FOUL (P3.PN) (N.Sago),,,,
+207,0022500247,314,3,11,2,9:07 PM,1:39,,,MISS Mitchell Free Throw 1 of 2,,
+208,0022500247,315,4,1,2,9:07 PM,1:39,,,Thunder Rebound,,
+209,0022500247,316,8,0,2,9:07 PM,1:39,SUB: McGowens FOR Murphy III,,,,
+210,0022500247,318,3,12,2,9:07 PM,1:39,,,Mitchell Free Throw 2 of 2 (9 PTS),69 - 53,-16
+211,0022500247,319,6,26,2,9:08 PM,1:25,Queen Offensive Charge Foul (P3) (N.Sago),,,,
+212,0022500247,321,5,37,2,9:08 PM,1:25,Queen Offensive Foul Turnover (P3.T12),,,,
+213,0022500247,322,8,0,2,9:08 PM,1:25,SUB: Missi FOR Queen,,,,
+214,0022500247,324,2,1,2,9:08 PM,1:12,,,MISS Mitchell 25' 3PT Jump Shot,,
+215,0022500247,325,4,0,2,9:08 PM,1:08,Jones REBOUND (Off:0 Def:1),,,,
+216,0022500247,329,18,4,2,9:09 PM,1:03,,Instant Replay2nd Period (9:09 PM EST),,69 - 53,-16
+217,0022500247,353,5,1,2,9:10 PM,1:03,Jones Bad Pass Turnover (P3.T13),,,,
+218,0022500247,330,8,0,2,9:12 PM,1:03,SUB: Murphy III FOR McGowens,,,,
+219,0022500247,331,8,0,2,9:12 PM,1:03,,,SUB: Joe FOR Mitchell,,
+220,0022500247,334,2,80,2,9:12 PM,0:43,,,MISS Dort 11' Step Back Jump Shot,,
+221,0022500247,335,4,0,2,9:12 PM,0:41,Matkovic REBOUND (Off:1 Def:3),,,,
+222,0022500247,336,2,75,2,9:12 PM,0:34,MISS Fears 2' Driving Finger Roll Layup,,,,
+223,0022500247,337,4,0,2,9:12 PM,0:34,,,Thunder Rebound,,
+224,0022500247,339,5,1,2,9:13 PM,0:21,Jones STEAL (1 STL),,Williams Bad Pass Turnover (P4.T7),,
+225,0022500247,341,1,6,2,9:13 PM,0:04,Fears 5' Driving Layup (11 PTS),,,69 - 55,-14
+226,0022500247,342,6,2,2,9:13 PM,0:04,,,Dort S.FOUL (P2.PN) (J.Orr),,
+227,0022500247,344,8,0,2,9:13 PM,0:04,SUB: Peavy FOR Murphy III,,,,
+228,0022500247,345,8,0,2,9:13 PM,0:04,,,SUB: Mitchell FOR Dort,,
+229,0022500247,348,3,10,2,9:14 PM,0:04,Fears Free Throw 1 of 1 (12 PTS),,,69 - 56,-13
+230,0022500247,349,2,6,2,9:14 PM,0:00,Missi BLOCK (1 BLK),,MISS Mitchell 6' Driving Layup,,
+231,0022500247,351,4,0,2,9:14 PM,0:00,,,Thunder Rebound,,
+232,0022500247,352,13,0,2,9:14 PM,0:00,,End of 2nd Period (9:14 PM EST),,69 - 56,-13
+233,0022500247,364,12,0,3,9:29 PM,12:00,,Start of 3rd Period (9:29 PM EST),,69 - 56,-13
+234,0022500247,365,5,1,3,9:29 PM,11:47,Queen Bad Pass Turnover (P4.T14),,Gilgeous-Alexander STEAL (3 STL),,
+235,0022500247,367,1,1,3,9:29 PM,11:40,,,Holmgren 26' 3PT Jump Shot (14 PTS) (Gilgeous-Alexander 4 AST),72 - 56,-16
+236,0022500247,369,2,79,3,9:30 PM,11:12,MISS Fears 27' 3PT Pullup Jump Shot,,,,
+237,0022500247,370,4,0,3,9:30 PM,11:12,PELICANS Rebound,,,,
+238,0022500247,371,5,11,3,9:30 PM,11:12,PELICANS Turnover: Shot Clock (T#15),,,,
+239,0022500247,372,2,71,3,9:30 PM,10:52,,,MISS Gilgeous-Alexander 3' Finger Roll Layup,,
+240,0022500247,373,4,0,3,9:30 PM,10:50,,,Hartenstein REBOUND (Off:2 Def:1),,
+241,0022500247,374,5,1,3,9:30 PM,10:48,Murphy III STEAL (1 STL),,Hartenstein Bad Pass Turnover (P2.T8),,
+242,0022500247,376,2,41,3,9:30 PM,10:43,MISS Jones 3' Running Layup,,,,
+243,0022500247,377,4,0,3,9:30 PM,10:43,Murphy III REBOUND (Off:2 Def:3),,,,
+244,0022500247,378,1,87,3,9:30 PM,10:39,Murphy III Putback Dunk (15 PTS),,,72 - 58,-14
+245,0022500247,379,2,5,3,9:31 PM,10:34,Queen BLOCK (1 BLK),,MISS Wallace 3' Layup,,
+246,0022500247,381,4,0,3,9:31 PM,10:34,,,Thunder Rebound,,
+247,0022500247,383,6,1,3,9:31 PM,10:34,Jones P.FOUL (P2.T1) (J.Goble),,,,
+248,0022500247,385,2,1,3,9:31 PM,10:29,,,MISS Holmgren 25' 3PT Jump Shot,,
+249,0022500247,386,4,0,3,9:31 PM,10:24,Matkovic REBOUND (Off:1 Def:4),,,,
+250,0022500247,387,5,1,3,9:31 PM,10:18,Jones Bad Pass Turnover (P4.T16),,Dort STEAL (1 STL),,
+251,0022500247,389,1,6,3,9:32 PM,9:58,,,Wallace 4' Driving Layup (5 PTS) (Gilgeous-Alexander 5 AST),74 - 58,-16
+252,0022500247,390,2,79,3,9:32 PM,9:48,MISS Queen 20' Pullup Jump Shot,,,,
+253,0022500247,391,4,0,3,9:32 PM,9:45,,,Holmgren REBOUND (Off:0 Def:5),,
+254,0022500247,392,5,1,3,9:32 PM,9:37,Queen STEAL (1 STL),,Holmgren Bad Pass Turnover (P1.T9),,
+255,0022500247,394,5,1,3,9:32 PM,9:30,Fears Bad Pass Turnover (P2.T17),,Hartenstein STEAL (2 STL),,
+256,0022500247,396,6,2,3,9:32 PM,9:26,Matkovic S.FOUL (P3.T2) (N.Sago),,,,
+257,0022500247,398,3,11,3,9:33 PM,9:26,,,Dort Free Throw 1 of 2 (13 PTS),75 - 58,-17
+258,0022500247,399,3,12,3,9:33 PM,9:26,,,Dort Free Throw 2 of 2 (14 PTS),76 - 58,-18
+259,0022500247,400,2,1,3,9:33 PM,9:15,MISS Matkovic 26' 3PT Jump Shot,,,,
+260,0022500247,401,4,0,3,9:33 PM,9:13,Queen REBOUND (Off:4 Def:0),,,,
+261,0022500247,402,1,44,3,9:34 PM,9:09,Queen 3' Reverse Layup (6 PTS),,,76 - 60,-16
+262,0022500247,403,1,108,3,9:34 PM,8:55,,,Holmgren 2' Cutting Dunk Shot (16 PTS) (Gilgeous-Alexander 6 AST),78 - 60,-18
+263,0022500247,405,2,9,3,9:34 PM,8:43,MISS Queen 3' Driving Dunk,,Hartenstein BLOCK (1 BLK),,
+264,0022500247,407,4,0,3,9:34 PM,8:43,PELICANS Rebound,,,,
+265,0022500247,409,9,1,3,9:34 PM,8:43,PELICANS Timeout: Regular (Full 3 Short 0),,,,
+266,0022500247,410,5,2,3,9:38 PM,8:31,Murphy III Lost Ball Turnover (P2.T18),,Wallace STEAL (1 STL),,
+267,0022500247,412,1,41,3,9:38 PM,8:28,,,Dort 2' Running Layup (16 PTS) (Wallace 4 AST),80 - 60,-20
+268,0022500247,414,6,2,3,9:38 PM,8:28,Jones S.FOUL (P3.T3) (J.Orr),,,,
+269,0022500247,416,3,10,3,9:38 PM,8:28,,,Dort Free Throw 1 of 1 (17 PTS),81 - 60,-21
+270,0022500247,417,2,1,3,9:38 PM,8:19,MISS Jones 25' 3PT Jump Shot,,,,
+271,0022500247,418,4,0,3,9:38 PM,8:16,Queen REBOUND (Off:5 Def:0),,,,
+272,0022500247,419,1,1,3,9:39 PM,8:12,Jones 26' 3PT Jump Shot (5 PTS) (Queen 2 AST),,,81 - 63,-18
+273,0022500247,421,1,108,3,9:39 PM,7:57,,,Hartenstein 2' Cutting Dunk Shot (10 PTS) (Gilgeous-Alexander 7 AST),83 - 63,-20
+274,0022500247,423,1,5,3,9:39 PM,7:36,Matkovic 5' Layup (10 PTS) (Murphy III 1 AST),,,83 - 65,-18
+275,0022500247,425,1,80,3,9:39 PM,7:26,,,Gilgeous-Alexander 26' 3PT Step Back Jump Shot (15 PTS),86 - 65,-21
+276,0022500247,426,2,101,3,9:40 PM,7:08,MISS Jones 12' Driving Floating Jump Shot,,Gilgeous-Alexander BLOCK (1 BLK),,
+277,0022500247,427,4,0,3,9:40 PM,7:06,,,Gilgeous-Alexander REBOUND (Off:0 Def:1),,
+278,0022500247,428,5,2,3,9:40 PM,7:03,Murphy III STEAL (2 STL),,Gilgeous-Alexander Lost Ball Turnover (P1.T10),,
+279,0022500247,430,1,50,3,9:40 PM,6:59,Fears 2' Running Dunk (14 PTS) (Queen 3 AST),,,86 - 67,-19
+280,0022500247,432,5,1,3,9:40 PM,6:51,Queen STEAL (2 STL),,Wallace Bad Pass Turnover (P2.T11),,
+281,0022500247,434,2,41,3,9:40 PM,6:47,MISS Fears 4' Running Layup,,Dort BLOCK (1 BLK),,
+282,0022500247,436,4,0,3,9:40 PM,6:47,,,Thunder Rebound,,
+283,0022500247,438,9,1,3,9:41 PM,6:47,,,Thunder Timeout: Regular (Reg.3 Short 0),,
+284,0022500247,439,18,5,3,9:41 PM,6:47,,Instant Replay3rd Period (9:41 PM EST),,86 - 67,-19
+285,0022500247,440,8,0,3,9:43 PM,6:47,SUB: Missi FOR Matkovic,,,,
+286,0022500247,441,8,0,3,9:43 PM,6:47,SUB: Peavy FOR Queen,,,,
+287,0022500247,444,7,5,3,9:44 PM,6:39,Fears Violation:Kicked Ball (J.Orr),,,,
+288,0022500247,445,1,98,3,9:44 PM,6:35,,,Wallace 2' Cutting Layup Shot (7 PTS) (Hartenstein 5 AST),88 - 67,-21
+289,0022500247,447,5,1,3,9:44 PM,6:17,Fears Bad Pass Turnover (P3.T19),,Wallace STEAL (2 STL),,
+290,0022500247,449,1,1,3,9:45 PM,6:06,,,Holmgren 27' 3PT Jump Shot (19 PTS) (Gilgeous-Alexander 8 AST),91 - 67,-24
+291,0022500247,451,9,1,3,9:45 PM,6:03,PELICANS Timeout: Regular (Full 4 Short 0),,,,
+292,0022500247,452,8,0,3,9:46 PM,6:03,SUB: Alvarado FOR Fears,,,,
+293,0022500247,454,2,101,3,9:47 PM,5:36,MISS Alvarado 10' Driving Floating Jump Shot,,,,
+294,0022500247,455,4,0,3,9:47 PM,5:34,,,Holmgren REBOUND (Off:0 Def:6),,
+295,0022500247,456,1,108,3,9:47 PM,5:13,,,Holmgren 2' Cutting Dunk Shot (21 PTS) (Hartenstein 6 AST),93 - 67,-26
+296,0022500247,458,5,1,3,9:47 PM,5:01,Murphy III Bad Pass Turnover (P3.T20),,Hartenstein STEAL (3 STL),,
+297,0022500247,460,5,2,3,9:47 PM,4:46,Murphy III STEAL (3 STL),,Holmgren Lost Ball Turnover (P2.T12),,
+298,0022500247,462,1,50,3,9:47 PM,4:41,Missi 2' Running Dunk (4 PTS) (Jones 1 AST),,,93 - 69,-24
+299,0022500247,464,6,2,3,9:48 PM,4:18,Missi S.FOUL (P1.T4) (N.Sago),,,,
+300,0022500247,466,3,11,3,9:48 PM,4:18,,,Hartenstein Free Throw 1 of 2 (11 PTS),94 - 69,-25
+301,0022500247,467,8,0,3,9:48 PM,4:18,SUB: Hawkins FOR Murphy III,,,,
+302,0022500247,468,8,0,3,9:48 PM,4:18,,,SUB: Joe FOR Wallace,,
+303,0022500247,471,3,12,3,9:49 PM,4:18,,,Hartenstein Free Throw 2 of 2 (12 PTS),95 - 69,-26
+304,0022500247,472,2,101,3,9:49 PM,4:04,MISS Jones 6' Driving Floating Jump Shot,,,,
+305,0022500247,473,4,0,3,9:49 PM,4:01,,,Dort REBOUND (Off:0 Def:1),,
+306,0022500247,474,2,80,3,9:49 PM,3:50,,,MISS Gilgeous-Alexander 13' Step Back Jump Shot,,
+307,0022500247,475,4,0,3,9:49 PM,3:45,,,Hartenstein REBOUND (Off:3 Def:1),,
+308,0022500247,476,1,97,3,9:49 PM,3:45,,,Hartenstein Tip Layup Shot (14 PTS),97 - 69,-28
+309,0022500247,477,2,78,3,9:50 PM,3:33,MISS Missi 11' Floating Jump Shot,,,,
+310,0022500247,478,4,0,3,9:50 PM,3:33,Missi REBOUND (Off:1 Def:0),,,,
+311,0022500247,479,6,1,3,9:50 PM,3:33,,,Dort P.FOUL (P3.T1) (J.Orr),,
+312,0022500247,481,8,0,3,9:50 PM,3:33,SUB: McGowens FOR Jones,,,,
+313,0022500247,482,8,0,3,9:50 PM,3:33,,,SUB: Williams FOR Hartenstein,,
+314,0022500247,486,1,101,3,9:50 PM,3:23,Alvarado 11' Driving Floating Jump Shot (4 PTS),,,97 - 71,-26
+315,0022500247,487,2,1,3,9:51 PM,3:07,,,MISS Joe 3PT Jump Shot,,
+316,0022500247,488,4,0,3,9:51 PM,3:01,McGowens REBOUND (Off:0 Def:3),,,,
+317,0022500247,489,2,6,3,9:51 PM,2:52,MISS McGowens 3' Driving Layup,,,,
+318,0022500247,490,4,0,3,9:51 PM,2:47,Peavy REBOUND (Off:2 Def:1),,,,
+319,0022500247,491,2,97,3,9:51 PM,2:47,MISS Peavy Tip Layup Shot,,,,
+320,0022500247,492,4,0,3,9:51 PM,2:47,Peavy REBOUND (Off:2 Def:1),,,,
+321,0022500247,493,1,97,3,9:51 PM,2:44,Peavy Tip Layup Shot (11 PTS),,,97 - 73,-24
+322,0022500247,494,5,2,3,9:51 PM,2:40,Alvarado STEAL (2 STL),,Gilgeous-Alexander Lost Ball Turnover (P2.T13),,
+323,0022500247,496,1,106,3,9:51 PM,2:35,Peavy 3' Running Alley Oop Dunk Shot (13 PTS) (Hawkins 4 AST),,,97 - 75,-22
+324,0022500247,498,1,80,3,9:52 PM,2:14,,,Gilgeous-Alexander 25' 3PT Step Back Jump Shot (18 PTS),100 - 75,-25
+325,0022500247,499,2,79,3,9:52 PM,2:02,MISS Alvarado 25' 3PT Pullup Jump Shot,,,,
+326,0022500247,500,4,0,3,9:52 PM,2:00,Alvarado REBOUND (Off:1 Def:0),,,,
+327,0022500247,501,2,1,3,9:52 PM,1:57,MISS Hawkins 24' 3PT Jump Shot,,,,
+328,0022500247,502,4,0,3,9:52 PM,1:54,,,Joe REBOUND (Off:1 Def:1),,
+329,0022500247,503,6,2,3,9:52 PM,1:52,Alvarado S.FOUL (P4.PN) (J.Orr),,,,
+330,0022500247,505,3,11,3,9:53 PM,1:52,,,Gilgeous-Alexander Free Throw 1 of 2 (19 PTS),101 - 75,-26
+331,0022500247,506,8,0,3,9:53 PM,1:52,,,SUB: Mitchell FOR Dort,,
+332,0022500247,507,8,0,3,9:53 PM,1:52,,,SUB: Carlson FOR Holmgren,,
+333,0022500247,510,3,12,3,9:53 PM,1:52,,,Gilgeous-Alexander Free Throw 2 of 2 (20 PTS),102 - 75,-27
+334,0022500247,511,2,9,3,9:53 PM,1:41,MISS Missi 2' Driving Dunk,,Carlson BLOCK (1 BLK),,
+335,0022500247,513,4,0,3,9:53 PM,1:38,,,Carlson REBOUND (Off:2 Def:1),,
+336,0022500247,514,2,1,3,9:53 PM,1:28,,,MISS Mitchell 26' 3PT Jump Shot,,
+337,0022500247,515,4,0,3,9:54 PM,1:22,Missi REBOUND (Off:1 Def:1),,,,
+338,0022500247,516,2,9,3,9:54 PM,1:13,MISS McGowens 3' Driving Dunk,,,,
+339,0022500247,517,4,0,3,9:54 PM,1:11,,,Joe REBOUND (Off:1 Def:2),,
+340,0022500247,518,1,79,3,9:54 PM,0:59,,,Gilgeous-Alexander 27' 3PT Pullup Jump Shot (23 PTS),105 - 75,-30
+341,0022500247,519,1,9,3,9:54 PM,0:46,Missi 4' Driving Dunk (6 PTS) (Peavy 3 AST),,,105 - 77,-28
+342,0022500247,521,2,1,3,9:54 PM,0:31,,,MISS Carlson 3PT Jump Shot,,
+343,0022500247,522,4,0,3,9:55 PM,0:27,Peavy REBOUND (Off:2 Def:2),,,,
+344,0022500247,523,1,2,3,9:55 PM,0:22,Hawkins 26' 3PT Running Jump Shot (3 PTS) (Peavy 4 AST),,,105 - 80,-25
+345,0022500247,525,2,1,3,9:55 PM,0:12,,,MISS Williams 3PT Jump Shot,,
+346,0022500247,526,4,0,3,9:55 PM,0:09,,,Gilgeous-Alexander REBOUND (Off:1 Def:1),,
+347,0022500247,527,6,4,3,9:55 PM,0:08,,,Gilgeous-Alexander OFF.Foul (P3) (N.Sago),,
+348,0022500247,535,5,37,3,9:55 PM,0:08,,,Gilgeous-Alexander Offensive Foul Turnover (P3.T14),,
+349,0022500247,532,18,3,3,9:57 PM,0:08,,Instant Replay3rd Period (9:57 PM EST),,105 - 80,-25
+350,0022500247,533,9,7,3,9:59 PM,0:08,PELICANS Timeout: Coach Challenge (Full 4 Short 0),,,,
+351,0022500247,534,18,5,3,9:59 PM,0:08,,Instant Replay3rd Period (9:59 PM EST),,105 - 80,-25
+352,0022500247,536,8,0,3,10:00 PM,0:08,SUB: Fears FOR Peavy,,,,
+353,0022500247,537,8,0,3,10:00 PM,0:08,,,SUB: Wallace FOR Carlson,,
+354,0022500247,540,6,1,3,10:01 PM,0:01,,,Wallace P.FOUL (P1.T2) (J.Orr),,
+355,0022500247,542,2,1,3,10:01 PM,0:00,MISS Hawkins 27' 3PT Jump Shot,,,,
+356,0022500247,543,4,0,3,10:01 PM,0:00,PELICANS Rebound,,,,
+357,0022500247,544,13,0,3,10:02 PM,0:00,,End of 3rd Period (10:02 PM EST),,105 - 80,-25
+358,0022500247,555,12,0,4,10:04 PM,12:00,,Start of 4th Period (10:04 PM EST),,105 - 80,-25
+359,0022500247,556,2,1,4,10:04 PM,11:49,,,MISS Joe 26' 3PT Jump Shot,,
+360,0022500247,557,4,0,4,10:04 PM,11:46,Matkovic REBOUND (Off:1 Def:5),,,,
+361,0022500247,558,2,6,4,10:04 PM,11:29,MISS Queen 8' Driving Layup,,,,
+362,0022500247,559,4,0,4,10:04 PM,11:27,,,Hartenstein REBOUND (Off:3 Def:2),,
+363,0022500247,560,2,1,4,10:04 PM,11:19,,,MISS Wallace 27' 3PT Jump Shot,,
+364,0022500247,561,4,0,4,10:04 PM,11:15,Queen REBOUND (Off:5 Def:1),,,,
+365,0022500247,562,5,2,4,10:05 PM,11:06,Queen Lost Ball Turnover (P5.T21),,Hartenstein STEAL (4 STL),,
+366,0022500247,564,1,41,4,10:05 PM,11:05,,,Hartenstein 2' Running Layup (16 PTS),107 - 80,-27
+367,0022500247,565,6,2,4,10:05 PM,11:05,Hawkins S.FOUL (P1.T1) (J.Goble),,,,
+368,0022500247,567,3,10,4,10:05 PM,11:05,,,MISS Hartenstein Free Throw 1 of 1,,
+369,0022500247,568,4,0,4,10:05 PM,11:00,Hawkins REBOUND (Off:0 Def:1),,,,
+370,0022500247,569,6,1,4,10:05 PM,10:49,,,Wallace P.FOUL (P2.T1) (N.Sago),,
+371,0022500247,571,1,79,4,10:06 PM,10:39,Hawkins 21' Pullup Jump Shot (5 PTS) (Matkovic 1 AST),,,107 - 82,-25
+372,0022500247,574,10,0,4,10:07 PM,10:15,Jump Ball Alvarado vs. Mitchell: Tip to Mitchell,,,,
+373,0022500247,577,2,1,4,10:07 PM,10:13,,,MISS Mitchell 14' Jump Shot,,
+374,0022500247,578,4,0,4,10:07 PM,10:10,,,Hartenstein REBOUND (Off:4 Def:2),,
+375,0022500247,579,2,1,4,10:07 PM,10:08,,,MISS Wallace 26' 3PT Jump Shot,,
+376,0022500247,580,4,0,4,10:07 PM,10:06,Queen REBOUND (Off:5 Def:2),,,,
+377,0022500247,581,5,2,4,10:07 PM,10:03,Queen Lost Ball Turnover (P6.T22),,Wallace STEAL (3 STL),,
+378,0022500247,583,5,45,4,10:07 PM,10:00,,,Wallace Out of Bounds - Bad Pass Turnover Turnover (P3.T15),,
+379,0022500247,584,1,79,4,10:07 PM,9:48,Hawkins 19' Pullup Jump Shot (7 PTS),,,107 - 84,-23
+380,0022500247,585,2,79,4,10:08 PM,9:30,,,MISS Mitchell 16' Pullup Jump Shot,,
+381,0022500247,586,4,0,4,10:08 PM,9:28,Queen REBOUND (Off:5 Def:3),,,,
+382,0022500247,587,1,1,4,10:08 PM,9:23,Hawkins 23' Jump Shot (9 PTS) (Matkovic 2 AST),,,107 - 86,-21
+383,0022500247,589,6,26,4,10:08 PM,9:09,,,Holmgren Offensive Charge Foul (P1) (N.Sago),,
+384,0022500247,591,5,37,4,10:08 PM,9:09,,,Holmgren Offensive Foul Turnover (P3.T16),,
+385,0022500247,592,1,6,4,10:09 PM,8:56,Alvarado 4' Driving Layup (6 PTS),,,107 - 88,-19
+386,0022500247,593,9,1,4,10:09 PM,8:56,,,Thunder Timeout: Regular (Reg.4 Short 0),,
+387,0022500247,725,18,7,4,10:10 PM,8:56,,Instant Replay4th Period (10:10 PM EST),,107 - 88,-19
+388,0022500247,595,2,1,4,10:12 PM,8:41,,,MISS Joe 25' 3PT Jump Shot,,
+389,0022500247,596,4,0,4,10:12 PM,8:37,Alvarado REBOUND (Off:1 Def:1),,,,
+390,0022500247,597,2,79,4,10:12 PM,8:29,MISS Alvarado 26' 3PT Pullup Jump Shot,,,,
+391,0022500247,598,4,0,4,10:12 PM,8:26,,,Mitchell REBOUND (Off:0 Def:1),,
+392,0022500247,600,2,1,4,10:13 PM,8:09,,,MISS Holmgren 3PT Jump Shot,,
+393,0022500247,601,4,0,4,10:13 PM,8:05,,,Hartenstein REBOUND (Off:5 Def:2),,
+394,0022500247,602,2,6,4,10:13 PM,8:00,Queen BLOCK (2 BLK),,MISS Wallace 4' Driving Layup,,
+395,0022500247,604,4,0,4,10:13 PM,8:00,,,Thunder Rebound,,
+396,0022500247,606,2,1,4,10:13 PM,7:52,,,MISS Wallace 24' 3PT Jump Shot,,
+397,0022500247,607,4,0,4,10:13 PM,7:52,,,Thunder Rebound,,
+398,0022500247,608,5,11,4,10:13 PM,7:52,,,Thunder Turnover: Shot Clock (T#17),,
+399,0022500247,609,6,1,4,10:14 PM,7:42,,,Wallace P.FOUL (P3.T2) (J.Orr),,
+400,0022500247,611,9,1,4,10:14 PM,7:42,PELICANS Timeout: Regular (Full 5 Short 0),,,,
+401,0022500247,612,8,0,4,10:15 PM,7:42,,,SUB: Dort FOR Joe,,
+402,0022500247,613,8,0,4,10:15 PM,7:42,,,SUB: Williams FOR Hartenstein,,
+403,0022500247,616,1,79,4,10:17 PM,7:28,Queen 16' Pullup Jump Shot (8 PTS) (Hawkins 5 AST),,,107 - 90,-17
+404,0022500247,618,2,75,4,10:18 PM,6:56,,,MISS Mitchell 2' Driving Finger Roll Layup,,
+405,0022500247,619,4,0,4,10:18 PM,6:52,,,Holmgren REBOUND (Off:1 Def:6),,
+406,0022500247,620,1,87,4,10:18 PM,6:52,,,Holmgren Putback Dunk (23 PTS),109 - 90,-19
+407,0022500247,621,1,79,4,10:18 PM,6:33,Hawkins 16' Pullup Jump Shot (11 PTS),,,109 - 92,-17
+408,0022500247,622,2,6,4,10:19 PM,6:08,Matkovic BLOCK (1 BLK),,MISS Holmgren 3' Driving Layup,,
+409,0022500247,624,4,0,4,10:19 PM,6:08,PELICANS Rebound,,,,
+410,0022500247,626,8,0,4,10:19 PM,6:08,SUB: Peavy FOR Matkovic,,,,
+411,0022500247,628,2,79,4,10:19 PM,5:55,MISS Hawkins 13' Pullup Jump Shot,,,,
+412,0022500247,629,4,0,4,10:19 PM,5:53,,,Wallace REBOUND (Off:0 Def:2),,
+413,0022500247,630,1,71,4,10:19 PM,5:30,,,Mitchell 3' Finger Roll Layup (11 PTS),111 - 92,-19
+414,0022500247,631,6,1,4,10:20 PM,5:20,,,Wallace P.FOUL (P4.T3) (J.Goble),,
+415,0022500247,633,8,0,4,10:20 PM,5:20,SUB: Fears FOR Alvarado,,,,
+416,0022500247,635,6,1,4,10:20 PM,5:19,,,Dort P.FOUL (P4.T4) (J.Orr),,
+417,0022500247,637,2,5,4,10:20 PM,5:10,MISS Queen 6' Layup,,Holmgren BLOCK (1 BLK),,
+418,0022500247,639,4,0,4,10:21 PM,5:07,,,Mitchell REBOUND (Off:0 Def:2),,
+419,0022500247,640,2,6,4,10:21 PM,5:00,,,MISS Dort 5' Driving Layup,,
+420,0022500247,641,4,0,4,10:21 PM,5:00,,,Holmgren REBOUND (Off:2 Def:6),,
+421,0022500247,642,6,2,4,10:21 PM,5:00,Peavy S.FOUL (P2.T2) (J.Goble),,,,
+422,0022500247,644,3,11,4,10:21 PM,5:00,,,MISS Holmgren Free Throw 1 of 2,,
+423,0022500247,645,4,1,4,10:21 PM,5:00,,,Thunder Rebound,,
+424,0022500247,646,3,12,4,10:22 PM,5:00,,,Holmgren Free Throw 2 of 2 (24 PTS),112 - 92,-20
+425,0022500247,647,1,1,4,10:22 PM,4:44,Murphy III 29' 3PT Jump Shot (18 PTS) (Hawkins 6 AST),,,112 - 95,-17
+426,0022500247,649,2,6,4,10:22 PM,4:25,,,MISS Wallace 3' Driving Layup,,
+427,0022500247,650,4,0,4,10:22 PM,4:20,,,Holmgren REBOUND (Off:3 Def:6),,
+428,0022500247,651,1,72,4,10:22 PM,4:20,,,Holmgren Putback Layup (26 PTS),114 - 95,-19
+429,0022500247,652,6,2,4,10:22 PM,4:19,,,Holmgren S.FOUL (P2.PN) (J.Goble),,
+430,0022500247,655,8,0,4,10:23 PM,4:19,,,SUB: Joe FOR Holmgren,,
+431,0022500247,657,3,11,4,10:23 PM,4:19,MISS Queen Free Throw 1 of 2,,,,
+432,0022500247,658,4,1,4,10:23 PM,4:19,PELICANS Rebound,,,,
+433,0022500247,659,8,0,4,10:23 PM,4:19,,,SUB: Dieng FOR Dort,,
+434,0022500247,661,8,0,4,10:24 PM,4:19,SUB: Jones FOR Peavy,,,,
+435,0022500247,663,3,12,4,10:24 PM,4:19,Queen Free Throw 2 of 2 (9 PTS),,,114 - 96,-18
+436,0022500247,664,2,75,4,10:24 PM,4:02,,,MISS Mitchell 3' Driving Finger Roll Layup,,
+437,0022500247,665,4,0,4,10:24 PM,4:00,Fears REBOUND (Off:0 Def:1),,,,
+438,0022500247,666,2,1,4,10:24 PM,3:49,MISS Fears 26' 3PT Jump Shot,,,,
+439,0022500247,667,4,0,4,10:24 PM,3:44,,,Williams REBOUND (Off:0 Def:4),,
+440,0022500247,668,6,1,4,10:25 PM,3:33,Queen P.FOUL (P4.T3) (J.Orr),,,,
+441,0022500247,670,8,0,4,10:25 PM,3:33,SUB: Matkovic FOR Queen,,,,
+442,0022500247,671,8,0,4,10:25 PM,3:33,,,SUB: Barnhizer FOR Wallace,,
+443,0022500247,674,2,80,4,10:25 PM,3:26,,,MISS Joe 28' 3PT Step Back Jump Shot,,
+444,0022500247,675,4,0,4,10:25 PM,3:22,Jones REBOUND (Off:0 Def:2),,,,
+445,0022500247,676,2,79,4,10:25 PM,3:16,MISS Murphy III 27' 3PT Pullup Jump Shot,,,,
+446,0022500247,677,4,0,4,10:25 PM,3:13,,,Williams REBOUND (Off:0 Def:5),,
+447,0022500247,678,1,44,4,10:26 PM,2:52,,,Barnhizer 3' Reverse Layup (2 PTS) (Joe 4 AST),116 - 96,-20
+448,0022500247,680,6,1,4,10:26 PM,2:43,,,Barnhizer P.FOUL (P1.PN) (N.Sago),,
+449,0022500247,682,3,11,4,10:26 PM,2:43,Fears Free Throw 1 of 2 (15 PTS),,,116 - 97,-19
+450,0022500247,683,8,0,4,10:26 PM,2:43,SUB: Peavy FOR Jones,,,,
+451,0022500247,684,8,0,4,10:26 PM,2:43,SUB: McGowens FOR Murphy III,,,,
+452,0022500247,685,8,0,4,10:26 PM,2:43,SUB: Missi FOR Matkovic,,,,
+453,0022500247,686,8,0,4,10:26 PM,2:43,,,SUB: Youngblood FOR Williams,,
+454,0022500247,687,8,0,4,10:26 PM,2:43,,,SUB: Carlson FOR Mitchell,,
+455,0022500247,693,3,12,4,10:27 PM,2:43,Fears Free Throw 2 of 2 (16 PTS),,,116 - 98,-18
+456,0022500247,694,1,79,4,10:27 PM,2:29,,,Youngblood 25' 3PT Pullup Jump Shot (3 PTS) (Carlson 2 AST),119 - 98,-21
+457,0022500247,696,1,79,4,10:27 PM,2:18,Fears 27' 3PT Pullup Jump Shot (19 PTS),,,119 - 101,-18
+458,0022500247,697,1,1,4,10:27 PM,2:07,,,Joe 27' 3PT Jump Shot (12 PTS) (Barnhizer 1 AST),122 - 101,-21
+459,0022500247,699,2,79,4,10:28 PM,1:47,MISS Hawkins 25' 3PT Pullup Jump Shot,,,,
+460,0022500247,700,4,0,4,10:28 PM,1:44,,,Youngblood REBOUND (Off:0 Def:1),,
+461,0022500247,701,1,52,4,10:28 PM,1:37,,,Carlson 2' Alley Oop Dunk (7 PTS) (Dieng 1 AST),124 - 101,-23
+462,0022500247,703,1,75,4,10:28 PM,1:29,Fears 3' Driving Finger Roll Layup (21 PTS),,,124 - 103,-21
+463,0022500247,704,6,2,4,10:28 PM,1:29,,,Youngblood S.FOUL (P1.PN) (J.Goble),,
+464,0022500247,706,3,10,4,10:29 PM,1:29,Fears Free Throw 1 of 1 (22 PTS),,,124 - 104,-20
+465,0022500247,707,1,79,4,10:29 PM,1:12,,,Joe 13' Pullup Jump Shot (14 PTS) (Dieng 2 AST),126 - 104,-22
+466,0022500247,709,1,1,4,10:29 PM,0:56,Peavy 24' 3PT Jump Shot (16 PTS) (Missi 2 AST),,,126 - 107,-19
+467,0022500247,711,2,80,4,10:29 PM,0:47,,,MISS Dieng 26' 3PT Step Back Jump Shot,,
+468,0022500247,712,4,0,4,10:30 PM,0:41,,,Carlson REBOUND (Off:3 Def:1),,
+469,0022500247,713,2,107,4,10:30 PM,0:40,,,MISS Carlson 2' Tip Dunk Shot,,
+470,0022500247,714,4,0,4,10:30 PM,0:38,Hawkins REBOUND (Off:0 Def:2),,,,
+471,0022500247,715,2,71,4,10:30 PM,0:30,MISS Missi 6' Finger Roll Layup,,Carlson BLOCK (2 BLK),,
+472,0022500247,717,4,0,4,10:30 PM,0:30,,,Barnhizer REBOUND (Off:0 Def:2),,
+473,0022500247,718,6,1,4,10:30 PM,0:30,McGowens P.FOUL (P3.T4) (J.Orr),,,,
+474,0022500247,720,5,11,4,10:31 PM,0:06,,,Thunder Turnover: Shot Clock (T#18),,
+475,0022500247,721,1,6,4,10:31 PM,0:01,Fears 4' Driving Layup (24 PTS),,,126 - 109,-17
+476,0022500247,722,13,0,4,10:31 PM,0:00,,End of 4th Period (10:31 PM EST),,126 - 109,-17

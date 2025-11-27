@@ -1,0 +1,14 @@
+is home, period, time remaining, score differential, points scored, result (as in was it a made shot, missed, rebound, turnover, timeout, etc.), and finally something like points over last 3 possessions for a momentum proxy.
+need opponent results (like not just turnovers, but turnovers forced)
+points over last 5 possessions
+fg% over last 3, 5 possessions
+lead change flag
+possession duration
+shot distance
+run magnitude
+
+end of possession:
+defensive rebound
+made FG or made last FT
+Turnover
+End of period

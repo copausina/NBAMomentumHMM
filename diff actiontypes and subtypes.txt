@@ -1,0 +1,201 @@
+
+   - 
+Ejection
+   - Other
+Foul
+   - Shooting
+   - Personal
+   - Offensive
+   - Offensive Charge
+   - Technical
+   - Loose Ball
+   - Personal Take
+   - Clear Path
+   - Flagrant Type 1
+   - Defense 3 Second
+   - Double Technical
+   - Away From Play
+   - Delay Technical
+   - Transition Take
+   - Flagrant Type 2
+Free Throw
+   - Free Throw 1 of 1
+   - Free Throw 1 of 2
+   - Free Throw 2 of 2
+   - Free Throw Technical
+   - Free Throw Clear Path 1 of 2
+   - Free Throw Clear Path 2 of 2
+   - Free Throw Flagrant 1 of 2
+   - Free Throw Flagrant 2 of 2
+   - Free Throw 1 of 3
+   - Free Throw 2 of 3
+   - Free Throw 3 of 3
+   - Free Throw Flagrant 1 of 1
+   - Free Throw Flagrant 1 of 3
+   - Free Throw Flagrant 2 of 3
+   - Free Throw Flagrant 3 of 3
+Instant Replay
+   - Coach Challenge Ruling Stands
+   - Overturn Ruling
+   - Support Ruling
+   - Coach Challenge Overturn Ruling
+   - Replay Center
+   - Coach Challenge Support Ruling
+   - Altercation Ruling
+   - Ruling Stands
+Jump Ball
+   -
+   - Coach Challenge
+Made Shot
+   - Jump Shot
+   - Step Back Jump shot
+   - Driving Layup Shot
+   - Pullup Jump shot
+   - Turnaround Jump Shot
+   - Tip Layup Shot
+   - Running Layup Shot
+   - Running Finger Roll Layup Shot
+   - Running Dunk Shot
+   - Driving Finger Roll Layup Shot
+   - Driving Floating Jump Shot
+   - Cutting Finger Roll Layup Shot
+   - Turnaround Fadeaway shot
+   - Cutting Layup Shot
+   - Fadeaway Jump Shot
+   - Running Jump Shot
+   - Alley Oop Dunk Shot
+   - Alley Oop Layup shot
+   - Putback Layup Shot
+   - Layup Shot
+   - Cutting Dunk Shot
+   - Turnaround Hook Shot
+   - Running Alley Oop Dunk Shot
+   - Reverse Layup Shot
+   - Finger Roll Layup Shot
+   - Driving Floating Bank Jump Shot
+   - Running Pull-Up Jump Shot
+   - Dunk Shot
+   - Tip Dunk Shot
+   - Driving Dunk Shot
+   - Driving Reverse Layup Shot
+   - Putback Dunk Shot
+   - Turnaround Fadeaway Bank Jump Shot
+   - Driving Bank Hook Shot
+   - Floating Jump shot
+   - Hook Shot
+   - Driving Hook Shot
+   - Step Back Bank Jump Shot
+   - Reverse Dunk Shot
+   - Running Alley Oop Layup Shot
+   - Jump Bank Shot
+   - Turnaround Bank Hook Shot
+   - Running Reverse Layup Shot
+   - Fadeaway Bank shot
+   - Turnaround Bank shot
+   - Driving Reverse Dunk Shot
+   - Hook Bank Shot
+   - Running Reverse Dunk Shot
+Missed Shot
+   - Jump Shot
+   - Driving Floating Jump Shot
+   - Fadeaway Jump Shot
+   - Pullup Jump shot
+   - Driving Dunk Shot
+   - Driving Finger Roll Layup Shot
+   - Turnaround Fadeaway shot
+   - Putback Layup Shot
+   - Layup Shot
+   - Step Back Jump shot
+   - Running Layup Shot
+   - Turnaround Hook Shot
+   - Driving Layup Shot
+   - Running Reverse Layup Shot
+   - Jump Bank Shot
+   - Running Finger Roll Layup Shot
+   - Floating Jump shot
+   - Driving Floating Bank Jump Shot
+   - Running Jump Shot
+   - Driving Hook Shot
+   - Tip Layup Shot
+   - Hook Shot
+   - Running Pull-Up Jump Shot
+   - Running Alley Oop Dunk Shot
+   - Cutting Dunk Shot
+   - Driving Reverse Layup Shot
+   - Turnaround Jump Shot
+   - Cutting Layup Shot
+   - Dunk Shot
+   - Turnaround Fadeaway Bank Jump Shot
+   - Tip Dunk Shot
+   - Running Dunk Shot
+   - Alley Oop Dunk Shot
+   - Driving Bank Hook Shot
+   - Reverse Layup Shot
+   - Alley Oop Layup shot
+   - Finger Roll Layup Shot
+   - Turnaround Bank Hook Shot
+   - Reverse Dunk Shot
+   - Cutting Finger Roll Layup Shot
+   - Putback Dunk Shot
+   - Turnaround Bank shot
+   - Fadeaway Bank shot
+   - Hook Bank Shot
+   - Step Back Bank Jump Shot
+   - Running Alley Oop Layup Shot
+Rebound
+   - Unknown
+   - Normal Rebound
+Substitution
+   -
+Timeout
+   - Regular
+   - Coach Challenge
+Turnover
+   - Lost Ball
+   - Out of Bounds Lost Ball Turnover
+   - Bad Pass
+   - Offensive Foul Turnover
+   - Out of Bounds - Bad Pass Turnover
+   - Shot Clock Turnover
+   - Traveling
+   - Step Out of Bounds Turnover
+   - 3 Second Violation
+   - Palming Turnover
+   - 5 Second Violation
+   - Backcourt Turnover
+   - Discontinue Dribble
+   - Offensive Goaltending
+   - Double Dribble
+   - Illegal Assist Turnover
+   - Inbound Turnover
+   - Lane Violation
+   - Kicked Ball Violation
+   - 8 Second Violation
+Violation
+   - Kicked Ball
+   - Delay Of Game
+   - Defensive Goaltending
+   - Lane
+period
+   - start
+Violation
+   - Kicked Ball
+   - Delay Of Game
+   - Defensive Goaltending
+   - Lane
+Violation
+   - Kicked Ball
+   - Delay Of Game
+Violation
+   - Kicked Ball
+   - Delay Of Game
+Violation
+   - Kicked Ball
+Violation
+   - Kicked Ball
+   - Delay Of Game
+   - Defensive Goaltending
+   - Lane
+period
+   - start
+   - end
