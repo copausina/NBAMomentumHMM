@@ -43,7 +43,7 @@ frames = []
 for gid, is_home in zip(df_simple["GAME_ID"], df_simple["HOME_GAME"]):
     v3 = playbyplayv3.PlayByPlayV3(gid)
     v3_df = v3.get_data_frames()[0]
-    v3_df["home"] = is_home
+    v3_df["home"] = 'h' if is_home else 'v'
     frames.append(v3_df)
     time.sleep(1)
 

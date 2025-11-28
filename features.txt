@@ -7,8 +7,27 @@ possession duration
 shot distance
 run magnitude
 
-end of possession:
-defensive rebound
+end of possession, outcome column:
+defensive rebound 
 made FG or made last FT
-Turnover
+Turnover (luckily offensive fouls and violations are TO subtypes)
 End of period
+
+possession ending actionTypes:
+Rebound (if location is different from team currently on offense)
+Made Shot (unless shooter was fouled, then it depends on the result of the and-one free throw)
+Free Throw (
+Turnover
+Period (subtype: end)
+
+oreb count (gained or given up)
+fouls drawn/committed
+points scored/allowed
+timeout
+
+Dunk flag?
+Steals too, or just TOs forced?
+and one flag?
+
+NOTE: The team that had the ball always keeps possession after a technical foul, with two exceptions: If a team tries to call a timeout when they have none remaining, they receive a technical and the other team gets the ball after the free throw. Same if a team has more than 5 players on the court
+
