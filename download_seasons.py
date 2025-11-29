@@ -10,21 +10,22 @@ bucks = [t for t in all_teams if t["full_name"] == "Milwaukee Bucks"][0]
 team_id = bucks["id"]
 print("Bucks Team ID:", team_id)
 
-# 2. Pull their 2023-24 regular season game log
+# 2. Pull their 2022-23 regular season game log
 log = teamgamelog.TeamGameLog(
     team_id=team_id,
-    season="2023-24",                 # NBA 2023 season = 2023-24
+    season="2022-23",                 # NBA 2023 season = 2023-24
     season_type_all_star="Regular Season"
 )
 
 df = log.get_data_frames()[0]
-print("Columns:", df.columns.tolist())  # sanity check
+# print("Columns:", df.columns.tolist())  # sanity check
 
 # 3. Build a simple table: date, game id, opponent, matchup
 df_simple = df[["GAME_DATE", "Game_ID", "MATCHUP"]].copy()
 
 # Parse opponent from MATCHUP (e.g., 'MIL vs. BOS' or 'MIL @ BOS')
 df_simple["OPPONENT"] = df_simple["MATCHUP"].str.split().str[-1]
+df_simple["HOME_GAME"] = df_simple["MATCHUP"].str.contains("vs.", case=False)
 
 # Make GAME_DATE a real datetime and sort
 df_simple["GAME_DATE"] = pd.to_datetime(df_simple["GAME_DATE"])
@@ -34,25 +35,23 @@ df_simple = df_simple.sort_values("GAME_DATE").reset_index(drop=True)
 df_simple = df_simple.rename(columns={"Game_ID": "GAME_ID"})
 
 # Reorder columns
-df_simple = df_simple[["GAME_DATE", "GAME_ID", "OPPONENT", "MATCHUP"]]
+df_simple = df_simple[["GAME_DATE", "GAME_ID", "OPPONENT", "MATCHUP", "HOME_GAME"]]
 
-df_simple
+df_simple.to_csv('bucks_2022_23_games.csv', index=False)
 
-v1season_df = pd.DataFrame()
-v3season_df = pd.DataFrame()
-# Loop thru game ids, downloading pbp data (v1 and v2 format) and appending it to one big df
-for gid in df_simple["GAME_ID"].unique():
-    v1 = playbyplay.PlayByPlay(gid)
-    v1_df = v1.get_data_frames()[0]
+frames = []
+for gid, is_home in zip(df_simple["GAME_ID"], df_simple["HOME_GAME"]):
     v3 = playbyplayv3.PlayByPlayV3(gid)
-    v3_df = v1.get_data_frames()[0]
-    v1season_df = pd.concat([v1season_df, v1_df])
-    v3season_df = pd.concat([v3season_df, v3_df])
-    # prevents read timeouts
+    v3_df = v3.get_data_frames()[0]
+    v3_df["home"] = 'h' if is_home else 'v'
+    frames.append(v3_df)
     time.sleep(1)
 
+v3season_df = pd.concat(frames, ignore_index=True)
+# Need to sort by gameId first bc the first event of game 1 has the same index as the first event of game 2, 3, etc.
+v3season_df = v3season_df.sort_values(by=["gameId", "actionId"]).reset_index(drop=True)
+
 # pickle so you don't have to hit api again
-v1season_df.to_pickle('v1.pkl')
 v3season_df.to_pickle('v3.pkl')
 
 
