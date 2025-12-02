@@ -1,5 +1,6 @@
 import re
-from nba_api.stats.endpoints import PlayByPlay, teamgamelog
+from nba_api.stats.endpoints import PlayByPlay
+from nba_api.stats.endpoints import teamgamelog
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -11,10 +12,10 @@ def winProbScrape(url):
     # choose a game
     gameid = "0022300075"   # Bucks @ Sixers (example season 2023-24)
 
-    # query box score
+    # # query box score
     PxP = PlayByPlay(game_id=gameid)
 
-    # Extract player box score as a DataFrame
+    # # Extract player box score as a DataFrame
     PxPdf = PxP.get_data_frames()[0]
 
     headers = {
@@ -76,7 +77,14 @@ def winProbScrape(url):
             }
         )
 
+    # df = pd.DataFrame(records)
+    # df = pd.DataFrame({
+    #     "play_id": range(1, len(df) + 1),
+    #     "wprb": df["win_prob_home"]
+    # })
+    
     df = pd.DataFrame(records)
+    df = df[["gt_seconds", "win_prob_home"]].rename(columns={"win_prob_home": "wprb"})
     return df
 
 #-------------------------------------------------------------------------
@@ -88,7 +96,10 @@ bucks = [t for t in all_teams if t["full_name"] == "Milwaukee Bucks"][0]
 team_id = bucks["id"]
 
 # Game log
-log = teamgamelog.TeamGameLog(team_id=team_id, season="2023-24").get_data_frames()[0]
+log = teamgamelog.TeamGameLog(team_id=team_id, season="2022-23").get_data_frames()[0]
+
+# get games in order
+log = log.sort_values("GAME_DATE", ascending=True)
 
 # Turn game log into actionable list
 game_list = log["Game_ID"].tolist()
@@ -109,4 +120,9 @@ for game_id in game_list:
     all_dfs.append(df_game)
 
 full = pd.concat(all_dfs, ignore_index=True)
+
+full["game_date"] = pd.to_datetime(full["game_date"])
+full = full.sort_values(["game_date", "game_id"])
+
 full.to_csv("bucks_winprob_2023.csv", index=False)
+full.to_pickle('wp.pkl')
