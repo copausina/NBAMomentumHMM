@@ -173,7 +173,7 @@ while i < len(df):
                         o_rebs_allowed += 1
                 # Defensive rebound ends possession
                 else:
-                    result = 'Defensive Rebound'
+                    result = 'Defensive Rebound' if cur["location"] == is_home else 'Opp Defensive Rebound'
                     break
             case "Turnover":
                 if cur["location"] == is_home:
@@ -187,6 +187,8 @@ while i < len(df):
                     timeouts += 1
                 else:
                     timeouts_opp += 1
+            case "Missed Shot":
+                shot_distance = max_or_set(shot_distance, cur["shotDistance"])
             # Substitution, Violation, Missed Shot, Instant Replay, Ejection, Jump Ball (besides opening tipoff), blank
             case _:
                 pass
@@ -243,5 +245,5 @@ print(features_df['pointsScored'].sum())
 print(features_df['pointsAllowed'].sum())
 print(pf_total)
 print(pa_total)
-game_counts = features_df['gameNum'].value_counts()
-game_counts.to_csv('game_counts.csv', header=['Count'], index=True)
+# game_counts = features_df['gameNum'].value_counts()
+# game_counts.to_csv('game_counts.csv', header=['Count'], index=True)
