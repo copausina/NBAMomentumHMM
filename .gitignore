@@ -1,0 +1,18 @@
+# Data files
+*.csv
+*.pkl
+*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Archive
+archive/
+
+# Experiments
+experiments/
