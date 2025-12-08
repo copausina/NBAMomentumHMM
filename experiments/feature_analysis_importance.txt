@@ -1,0 +1,53 @@
+============================================================
+FEATURE IMPORTANCE ANALYSIS RESULTS
+============================================================
+
+Top 10 by Logistic Regression:
+            feature  coefficient  abs_coefficient
+   avg_hot_hand_pct    -0.293740         0.293740
+       secondChance     0.239597         0.239597
+   avg_recent_makes     0.206252         0.206252
+opp_rolling_defense    -0.168754         0.168754
+       oRebsGrabbed    -0.151484         0.151484
+  recentScoringRate     0.130450         0.130450
+     periodPressure    -0.123460         0.123460
+     gameImportance     0.105640         0.105640
+      time_pressure     0.090648         0.090648
+  avg_player_fg_pct     0.085820         0.085820
+
+Top 10 by Mutual Information:
+             feature  mi_score
+team_shooting_streak  0.002132
+       pointsAllowed  0.002012
+      scoreDiffStart  0.001290
+       foulAdvantage  0.001203
+    team_rolling_ppg  0.000948
+        shotDistance  0.000923
+   comeback_momentum  0.000833
+ opp_rolling_defense  0.000823
+        oRebsGrabbed  0.000808
+   avg_player_fg_pct  0.000791
+
+Top 10 by F-statistic:
+            feature  f_score  p_value
+      pointsAllowed 5.184259 0.022809
+opp_rolling_defense 4.324122 0.037595
+     gameImportance 4.079901 0.043417
+  comeback_momentum 3.784734 0.051744
+       secondChance 3.570190 0.058848
+      foulAdvantage 2.914921 0.087788
+       oRebsGrabbed 2.765027 0.096369
+         foulsDrawn 2.602019 0.106752
+     periodPressure 2.506968 0.113368
+      momentumScore 1.451142 0.228367
+
+Consensus Top Features:
+  ⭐⭐⭐ oRebsGrabbed
+  ⭐⭐⭐ opp_rolling_defense
+  ⭐⭐ pointsAllowed
+  ⭐⭐ gameImportance
+  ⭐⭐ periodPressure
+  ⭐⭐ secondChance
+  ⭐⭐ foulAdvantage
+  ⭐⭐ comeback_momentum
+  ⭐⭐ avg_player_fg_pct
