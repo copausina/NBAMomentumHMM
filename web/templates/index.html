@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Momentum HMM Visualization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏀 NBA Momentum Analysis</h1>
+            <p class="subtitle">Hidden Markov Model Visualization</p>
+        </header>
+
+        <!-- Game Selection -->
+        <section class="game-selection">
+            <h2>Game Analysis</h2>
+            <div class="game-selector">
+                <label for="game-select">Select Game:</label>
+                <select id="game-select">
+                    <option value="">Loading games...</option>
+                </select>
+                <button id="analyze-btn" disabled>Analyze Game</button>
+            </div>
+        </section>
+
+        <!-- Game Visualizations -->
+        <section class="game-viz" id="game-viz" style="display: none;">
+            <div class="game-header">
+                <h3 id="game-title">Game Details</h3>
+                <p id="game-info"></p>
+            </div>
+
+            <!-- Momentum Timeline -->
+            <div class="viz-card">
+                <h4>Momentum Timeline</h4>
+                <div id="momentum-timeline"></div>
+            </div>
+
+            <!-- Win Probability -->
+            <div class="viz-card">
+                <h4>Win Probability</h4>
+                <div id="win-probability"></div>
+            </div>
+
+            <!-- Possession Details -->
+            <div class="viz-card">
+                <h4>Possession-by-Possession</h4>
+                <div id="possession-table" class="possession-scroll">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
