@@ -130,11 +130,11 @@ def extract_features(input_file, output_file):
     while i < len(df):
         cur = df.iloc[i]
 
-        # Skip outliers during possession processing
-        if outlier_flags[i] and cur["actionType"] not in ["period"]:
-            outliers_skipped += 1
-            i += 1
-            continue
+        # # Skip outliers during possession processing
+        # if outlier_flags[i] and cur["actionType"] not in ["period"]:
+        #     outliers_skipped += 1
+        #     i += 1
+        #     continue
 
         points_scored = 0
         points_allowed = 0
@@ -151,13 +151,13 @@ def extract_features(input_file, output_file):
         while True:
             cur = df.iloc[i]
 
-            # Skip outliers within possession
-            if outlier_flags[i] and cur["actionType"] not in ["period"]:
-                outliers_skipped += 1
-                i += 1
-                if i >= len(df):
-                    break
-                continue
+            # # Skip outliers within possession
+            # if outlier_flags[i] and cur["actionType"] not in ["period"]:
+            #     outliers_skipped += 1
+            #     i += 1
+            #     if i >= len(df):
+            #         break
+            #     continue
 
             match cur["actionType"]:
                 case "period":
@@ -172,6 +172,7 @@ def extract_features(input_file, output_file):
                         points_last_5.clear()
                         home_points = 0
                         away_points = 0
+                        win_prob_start = df.iloc[i]['wprb']
                         # Skip to after jump ball
                         while df.iloc[i]["actionType"] != 'Jump Ball':
                             i += 1
@@ -268,7 +269,8 @@ def extract_features(input_file, output_file):
                      (score_diff_start <= 0 and score_diff_end > 0)
         points_last_3.append(points_scored)
         points_last_5.append(points_scored)
-
+        win_prob_end = df.iloc[i]['wprb'] #if i < len(df) else win_prob_start
+        win_prob_delta = win_prob_end - win_prob_start
         row = {
             "index": i,
             "gameNum": game_num,
@@ -293,6 +295,9 @@ def extract_features(input_file, output_file):
             "oRebsAllowed": o_rebs_allowed,
             "timeouts": timeouts,
             "timeoutsOpp": timeouts_opp,
+            "winProbStart": win_prob_start,
+            "winProbEnd": win_prob_end,
+            "winProbDelta": win_prob_delta,
             "result": result
         }
 
@@ -305,6 +310,8 @@ def extract_features(input_file, output_file):
         # Set starts for next possession
         clock_start = clock_end
         score_diff_start = score_diff_end
+        score_diff_start = score_diff_end
+        win_prob_start = win_prob_end
 
         i += 1
 

@@ -52,7 +52,7 @@ def analyze_feature_importance(df, states, output_prefix='feature_analysis'):
         'secondChance', 'foulAdvantage', 'recentScoringRate',
         'team_shooting_streak', 'team_rolling_ppg', 'opp_rolling_defense',
         'time_pressure', 'comeback_momentum', 'avg_player_fg_pct',
-        'avg_hot_hand_pct', 'avg_recent_makes',
+        'avg_hot_hand_pct', 'avg_recent_makes', 'winProbDelta', 'winProbStart', 'winProbEnd'
     ]
 
     X = df_eval[all_features].fillna(0)

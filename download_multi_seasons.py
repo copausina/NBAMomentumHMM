@@ -11,7 +11,7 @@ import json
 from nba_api.stats.static import teams
 from nba_api.stats.endpoints import playbyplayv3, teamgamelog
 
-def winProbScrape(url):
+def winProbScrape(url, is_home):
     """Scrape win probability data from inpredictable.com"""
     headers = {
         "User-Agent": "Mozilla/5.0"
@@ -53,7 +53,7 @@ def winProbScrape(url):
         records.append({
             "gt_seconds": gt,
             "quarter_marker": ann,
-            "win_prob_home": wprb,
+            "wprb": wprb if is_home else 1 - wprb,
             "margin": mgn,
             "wp_tooltip_html": tt1,
             "margin_tooltip_html": tt2,
@@ -62,7 +62,7 @@ def winProbScrape(url):
         })
 
     df = pd.DataFrame(records)
-    df = df[["gt_seconds", "win_prob_home"]].rename(columns={"win_prob_home": "wprb"})
+    df = df[["gt_seconds", "wprb"]]
     return df
 
 
@@ -170,6 +170,7 @@ def download_season(season_str, nba_season_year):
     print(f"\n[1/3] Downloading win probability data for {season_str}...")
     log = teamgamelog.TeamGameLog(team_id=team_id, season=nba_season_year).get_data_frames()[0]
     log = log.sort_values("GAME_DATE", ascending=True)
+    log["is_home"] = log["MATCHUP"].str.contains("vs.", case=False)
     game_list = log["Game_ID"].tolist()
 
     all_dfs = []
@@ -177,13 +178,14 @@ def download_season(season_str, nba_season_year):
         date_iso = pd.to_datetime(
             log.loc[log["Game_ID"] == game_id, "GAME_DATE"]
         ).dt.strftime("%Y-%m-%d").iloc[0]
+        is_home = bool(log.loc[log["Game_ID"] == game_id, "is_home"].iloc[0])
 
         # Determine season year for URL (e.g., 2023 for 2022-23 season)
         url_season = str(int(season_str[:4]) + 1)
         url = f"https://stats.inpredictable.com/nba/wpBox.php?season={url_season}&date={date_iso}&gid={game_id}"
 
         try:
-            df_game = winProbScrape(url)
+            df_game = winProbScrape(url, is_home)
             df_game["game_id"] = game_id
             df_game["game_date"] = date_iso
             all_dfs.append(df_game)
@@ -235,8 +237,8 @@ def download_season(season_str, nba_season_year):
 if __name__ == "__main__":
     # Download both seasons
     seasons = [
+        ("2021-22", "2021-22"),
         ("2022-23", "2022-23"),
-        ("2023-24", "2023-24"),
     ]
 
     all_seasons = []

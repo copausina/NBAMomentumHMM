@@ -35,6 +35,8 @@ def evaluate_multi_possession_prediction(df, states, hmm_model, n_ahead=1, task=
     df_eval = df.copy()
     df_eval['state'] = states
 
+    # df_eval.to_csv('debug_eval_data.csv', index=False)
+
     # Create prediction targets
     if task == 'classification':
         # Binary: will score in next N possessions?
@@ -327,7 +329,7 @@ def generate_summary_report(results):
 
 ---
 
-## 🎯 EXPERIMENT 1: Different Prediction Targets (n_states=3)
+## EXPERIMENT 1: Different Prediction Targets (n_states=3)
 
 | Target | Task | Baseline AUC/RMSE | Momentum AUC/RMSE | Improvement |
 |--------|------|-------------------|-------------------|-------------|
@@ -353,7 +355,7 @@ def generate_summary_report(results):
     report += f"""
 ---
 
-## 🔢 EXPERIMENT 2: Different Number of States (next-1 classification)
+## EXPERIMENT 2: Different Number of States (next-1 classification)
 
 | States | Baseline AUC | Momentum AUC | Improvement | State Distribution |
 |--------|--------------|--------------|-------------|-------------------|
@@ -375,7 +377,7 @@ def generate_summary_report(results):
     report += """
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 ### Best Performance
 """
