@@ -475,4 +475,5 @@ if __name__ == '__main__':
     print("\nStarting server at http://localhost:5000")
     print("="*80 + "\n")
 
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get("PORT", 5000))  # Default 5000 for local dev
+    app.run(debug=True, host="0.0.0.0", port=port)
