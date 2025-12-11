@@ -81,6 +81,32 @@ async function loadStateStats() {
     }
 }
 
+function getGradientColor(val) {
+    const green = [46, 204, 113];   // #2ecc71
+    const yellow = [241, 196, 15];  // #f1c40f
+    const orange = [230, 126, 34];  // #e67e22
+
+    let start, end, ratio;
+
+    if (val <= 0.5) {
+        // Green → Yellow
+        ratio = val / 0.5;
+        start = green;
+        end = yellow;
+    } else {
+        // Yellow → Orange
+        ratio = (val - 0.5) / 0.5;
+        start = yellow;
+        end = orange;
+    }
+
+    const r = Math.round(start[0] + ratio * (end[0] - start[0]));
+    const g = Math.round(start[1] + ratio * (end[1] - start[1]));
+    const b = Math.round(start[2] + ratio * (end[2] - start[2]));
+
+    return `rgb(${r}, ${g}, ${b})`;
+}
+
 // Display transition matrix
 function displayTransitionMatrix(matrix) {
     const container = document.getElementById('transition-table');
@@ -99,8 +125,11 @@ function displayTransitionMatrix(matrix) {
         html += `<tr><th>${stateNames[i]}</th>`;
         row.forEach(val => {
             const pct = (val * 100).toFixed(1);
-            const opacity = val;
-            html += `<td style="background-color: rgba(52, 152, 219, ${opacity})">${pct}%</td>`;
+
+            // Color gradient (green → yellow → orange)
+            const color = getGradientColor(val);
+
+            html += `<td style="background-color: ${color}; color: black;">${pct}%</td>`;
         });
         html += '</tr>';
     });

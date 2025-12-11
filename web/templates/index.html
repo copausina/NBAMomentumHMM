@@ -6,6 +6,23 @@
     <title>NBA Momentum HMM Visualization</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/static/js/momentumStats.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f8f9fa;
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        #states-container, #transition-table {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -13,6 +30,48 @@
             <h1>🏀 NBA Momentum Analysis</h1>
             <p class="subtitle">Hidden Markov Model Visualization</p>
         </header>
+
+        <h1>Momentum Model Overview</h1>
+
+        <!-- FOUR TOP METRICS -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Final AUC</div>
+                <div id="stat-auc" class="stat-value">--</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-label">Baseline AUC</div>
+                <div id="stat-baseline" class="stat-value">--</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-label">Improvement</div>
+                <div id="stat-improvement" class="stat-value">--</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-label">ANOVA p-value</div>
+                <div id="stat-pvalue" class="stat-value">--</div>
+            </div>
+        </div>
+
+        <!-- STATE CARDS -->
+        <h2>Momentum State Statistics</h2>
+        <div id="states-container"></div>
+
+        <!-- TRANSITION MATRIX -->
+        <h2>Transition Matrix</h2>
+        <div id="transition-table"></div>
+
+        <!-- LOAD JAVASCRIPT -->
+        <script src="/static/js/main.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                loadModelStats();
+                loadStateStats();
+            });
+        </script>
 
         <!-- Game Selection -->
         <section class="game-selection">

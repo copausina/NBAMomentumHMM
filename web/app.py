@@ -292,7 +292,8 @@ def get_momentum_timeline(game_id):
     if len(game_df) == 0:
         return jsonify({'error': 'Game not found'}), 404
 
-    game_df = game_df.sort_values('possession_idx')
+    game_df = game_df.sort_values('possession_idx').reset_index(drop=True)
+    game_df['possession_idx'] = np.arange(len(game_df))
 
     # Define colors for states
     state_colors = {0: '#3498db', 1: '#95a5a6', 2: '#e74c3c'}  # Blue, Gray, Red
@@ -323,7 +324,7 @@ def get_momentum_timeline(game_id):
                 'type': 'scatter',
                 'mode': 'markers',
                 'marker': {
-                    'size': 15,
+                    'size': 8,
                     'color': state_colors[state_num],
                     'symbol': 'square',
                 },
@@ -340,7 +341,7 @@ def get_momentum_timeline(game_id):
             'type': 'scatter',
             'mode': 'markers',
             'marker': {
-                'size': 12,
+                'size': 8,
                 'color': 'gold',
                 'symbol': 'star',
                 'line': {'color': 'black', 'width': 1}

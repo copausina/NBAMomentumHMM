@@ -122,5 +122,537 @@
   "22200483": {
     "away": "BKN",
     "home": "MIL"
+  },
+  "22200267": {
+    "home": "MIL",
+    "away": "CHI"
+  },
+  "22200495": {
+    "home": "MIL",
+    "away": "BOS"
+  },
+  "22200519": {
+    "home": "MIL",
+    "away": "CHI"
+  },
+  "22200533": {
+    "home": "MIN",
+    "away": "MIL"
+  },
+  "22200548": {
+    "home": "WAS",
+    "away": "MIL"
+  },
+  "22200561": {
+    "home": "WAS",
+    "away": "MIL"
+  },
+  "22200569": {
+    "home": "TOR",
+    "away": "MIL"
+  },
+  "22200583": {
+    "home": "MIL",
+    "away": "CHA"
+  },
+  "22200607": {
+    "home": "NYK",
+    "away": "MIL"
+  },
+  "22200620": {
+    "home": "MIL",
+    "away": "ATL"
+  },
+  "22200628": {
+    "home": "MIL",
+    "away": "MIA"
+  },
+  "22200641": {
+    "home": "MIL",
+    "away": "MIA"
+  },
+  "22200657": {
+    "home": "MIL",
+    "away": "IND"
+  },
+  "22200665": {
+    "home": "TOR",
+    "away": "MIL"
+  },
+  "22200695": {
+    "home": "MIL",
+    "away": "CLE"
+  },
+  "22200706": {
+    "home": "MIL",
+    "away": "DET"
+  },
+  "22200723": {
+    "home": "MIL",
+    "away": "DEN"
+  },
+  "22200736": {
+    "home": "MIL",
+    "away": "IND"
+  },
+  "22200755": {
+    "home": "NOP",
+    "away": "MIL"
+  },
+  "22200767": {
+    "home": "MIL",
+    "away": "CHA"
+  },
+  "22200784": {
+    "home": "MIL",
+    "away": "LAC"
+  },
+  "22200797": {
+    "home": "MIL",
+    "away": "MIA"
+  },
+  "22200815": {
+    "home": "POR",
+    "away": "MIL"
+  },
+  "22200834": {
+    "home": "MIL",
+    "away": "LAL"
+  },
+  "22200845": {
+    "home": "MIL",
+    "away": "LAC"
+  },
+  "22200869": {
+    "home": "MIL",
+    "away": "BOS"
+  },
+  "22200883": {
+    "home": "MIL",
+    "away": "CHI"
+  },
+  "22200897": {
+    "home": "MIL",
+    "away": "MIA"
+  },
+  "22200910": {
+    "home": "PHX",
+    "away": "MIL"
+  },
+  "22200924": {
+    "home": "MIL",
+    "away": "BKN"
+  },
+  "22200939": {
+    "home": "ORL",
+    "away": "MIL"
+  },
+  "22200960": {
+    "home": "PHI",
+    "away": "MIL"
+  },
+  "22200973": {
+    "home": "WAS",
+    "away": "MIL"
+  },
+  "22200978": {
+    "home": "ORL",
+    "away": "MIL"
+  },
+  "22200995": {
+    "home": "MIL",
+    "away": "BKN"
+  },
+  "22201012": {
+    "home": "MIL",
+    "away": "GSW"
+  },
+  "22201026": {
+    "home": "SAC",
+    "away": "MIL"
+  },
+  "22201033": {
+    "home": "PHX",
+    "away": "MIL"
+  },
+  "22201045": {
+    "home": "MIL",
+    "away": "IND"
+  },
+  "22201068": {
+    "home": "TOR",
+    "away": "MIL"
+  },
+  "22201089": {
+    "home": "SAS",
+    "away": "MIL"
+  },
+  "22201102": {
+    "home": "UTA",
+    "away": "MIL"
+  },
+  "22201109": {
+    "home": "MIL",
+    "away": "DEN"
+  },
+  "22201122": {
+    "home": "MIL",
+    "away": "DET"
+  },
+  "22201136": {
+    "home": "MIL",
+    "away": "IND"
+  },
+  "22201146": {
+    "home": "MIL",
+    "away": "BOS"
+  },
+  "22201174": {
+    "home": "PHI",
+    "away": "MIL"
+  },
+  "22201179": {
+    "home": "WAS",
+    "away": "MIL"
+  },
+  "22201193": {
+    "home": "MIL",
+    "away": "CHI"
+  },
+  "22201208": {
+    "home": "MIL",
+    "away": "MEM"
+  },
+  "22201221": {
+    "home": "TOR",
+    "away": "MIL"
+  },
+  "22300002": {
+    "home": "NYK",
+    "away": "MIL"
+  },
+  "22300027": {
+    "home": "MIL",
+    "away": "CHA"
+  },
+  "22300049": {
+    "home": "WAS",
+    "away": "MIL"
+  },
+  "22300056": {
+    "home": "MIL",
+    "away": "MIA"
+  },
+  "22300075": {
+    "home": "PHI",
+    "away": "MIL"
+  },
+  "22300097": {
+    "home": "MIL",
+    "away": "ATL"
+  },
+  "22300107": {
+    "home": "MIL",
+    "away": "MIA"
+  },
+  "22300116": {
+    "home": "TOR",
+    "away": "MIL"
+  },
+  "22300149": {
+    "home": "MIL",
+    "away": "BKN"
+  },
+  "22300165": {
+    "home": "MIL",
+    "away": "DET"
+  },
+  "22300171": {
+    "home": "MIL",
+    "away": "IND"
+  },
+  "22300173": {
+    "home": "ORL",
+    "away": "MIL"
+  },
+  "22300190": {
+    "home": "MIL",
+    "away": "CHI"
+  },
+  "22300195": {
+    "home": "TOR",
+    "away": "MIL"
+  },
+  "22300205": {
+    "home": "MIL",
+    "away": "DAL"
+  },
+  "22300219": {
+    "home": "WAS",
+    "away": "MIL"
+  },
+  "22300228": {
+    "home": "MIL",
+    "away": "BOS"
+  },
+  "22300245": {
+    "home": "POR",
+    "away": "MIL"
+  },
+  "22300269": {
+    "home": "MIL",
+    "away": "CHI"
+  },
+  "22300286": {
+    "home": "MIL",
+    "away": "ATL"
+  },
+  "22300300": {
+    "home": "MIL",
+    "away": "CHI"
+  },
+  "22300315": {
+    "home": "MIL",
+    "away": "IND"
+  },
+  "22300334": {
+    "home": "MIL",
+    "away": "DET"
+  },
+  "22300346": {
+    "home": "MIL",
+    "away": "HOU"
+  },
+  "22300361": {
+    "home": "SAS",
+    "away": "MIL"
+  },
+  "22300378": {
+    "home": "ORL",
+    "away": "MIL"
+  },
+  "22300388": {
+    "home": "NYK",
+    "away": "MIL"
+  },
+  "22300401": {
+    "home": "NYK",
+    "away": "MIL"
+  },
+  "22300417": {
+    "home": "MIL",
+    "away": "BKN"
+  },
+  "22300433": {
+    "home": "MIL",
+    "away": "CLE"
+  },
+  "22300454": {
+    "home": "MIL",
+    "away": "IND"
+  },
+  "22300466": {
+    "home": "MIL",
+    "away": "IND"
+  },
+  "22300477": {
+    "home": "SAS",
+    "away": "MIL"
+  },
+  "22300496": {
+    "home": "MIL",
+    "away": "HOU"
+  },
+  "22300510": {
+    "home": "UTA",
+    "away": "MIL"
+  },
+  "22300528": {
+    "home": "MIL",
+    "away": "BOS"
+  },
+  "22300545": {
+    "home": "MIL",
+    "away": "GSW"
+  },
+  "22300552": {
+    "home": "SAC",
+    "away": "MIL"
+  },
+  "22300572": {
+    "home": "MIL",
+    "away": "CLE"
+  },
+  "22300592": {
+    "home": "MIL",
+    "away": "DET"
+  },
+  "22300606": {
+    "home": "MIL",
+    "away": "DET"
+  },
+  "22300624": {
+    "home": "MIL",
+    "away": "CLE"
+  },
+  "22300639": {
+    "home": "MIL",
+    "away": "CLE"
+  },
+  "22300648": {
+    "home": "NOP",
+    "away": "MIL"
+  },
+  "22300667": {
+    "home": "MIL",
+    "away": "DEN"
+  },
+  "22300683": {
+    "home": "POR",
+    "away": "MIL"
+  },
+  "22300702": {
+    "home": "MIL",
+    "away": "DAL"
+  },
+  "22300711": {
+    "home": "UTA",
+    "away": "MIL"
+  },
+  "22300725": {
+    "home": "PHX",
+    "away": "MIL"
+  },
+  "22300738": {
+    "home": "MIN",
+    "away": "MIL"
+  },
+  "22300745": {
+    "home": "MIL",
+    "away": "CHA"
+  },
+  "22300767": {
+    "home": "MIL",
+    "away": "DEN"
+  },
+  "22300773": {
+    "home": "MIL",
+    "away": "MIA"
+  },
+  "22300790": {
+    "home": "MIL",
+    "away": "MEM"
+  },
+  "22300808": {
+    "home": "MIN",
+    "away": "MIL"
+  },
+  "22300817": {
+    "home": "PHI",
+    "away": "MIL"
+  },
+  "22300840": {
+    "home": "MIL",
+    "away": "CHA"
+  },
+  "22300849": {
+    "home": "MIL",
+    "away": "CHA"
+  },
+  "22300864": {
+    "home": "MIL",
+    "away": "CHI"
+  },
+  "22300880": {
+    "home": "MIL",
+    "away": "LAC"
+  },
+  "22300899": {
+    "home": "MIL",
+    "away": "GSW"
+  },
+  "22300915": {
+    "home": "MIL",
+    "away": "LAL"
+  },
+  "22300924": {
+    "home": "MIL",
+    "away": "LAC"
+  },
+  "22300945": {
+    "home": "SAC",
+    "away": "MIL"
+  },
+  "22300958": {
+    "home": "PHI",
+    "away": "MIL"
+  },
+  "22300976": {
+    "home": "PHX",
+    "away": "MIL"
+  },
+  "22300998": {
+    "home": "MIL",
+    "away": "BOS"
+  },
+  "22301007": {
+    "home": "MIL",
+    "away": "BKN"
+  },
+  "22301030": {
+    "home": "OKC",
+    "away": "MIL"
+  },
+  "22301045": {
+    "home": "MIL",
+    "away": "LAL"
+  },
+  "22301061": {
+    "home": "NOP",
+    "away": "MIL"
+  },
+  "22301076": {
+    "home": "MIL",
+    "away": "ATL"
+  },
+  "22301095": {
+    "home": "WAS",
+    "away": "MIL"
+  },
+  "22301107": {
+    "home": "MIL",
+    "away": "MEM"
+  },
+  "22301122": {
+    "home": "TOR",
+    "away": "MIL"
+  },
+  "22301139": {
+    "home": "NYK",
+    "away": "MIL"
+  },
+  "22301148": {
+    "home": "MIL",
+    "away": "BOS"
+  },
+  "22301162": {
+    "home": "ORL",
+    "away": "MIL"
+  },
+  "22301179": {
+    "home": "OKC",
+    "away": "MIL"
+  },
+  "22301191": {
+    "home": "ORL",
+    "away": "MIL"
+  },
+  "22301201": {
+    "home": "NYK",
+    "away": "MIL"
+  },
+  "22301229": {
+    "home": "MIL",
+    "away": "IND"
   }
 }
